@@ -1,0 +1,1 @@
+<a href="https://www.hpe.com/jp" target="_blank"><img src="<!--#include virtual="/directplus_ent/include/intershop_domain.inc" -->/is-bin/intershop.static/WFS/Directplus-Advantage-Site/-/ja_JP/DPAimages/hpe_logo.gif" width="170" alt="<!--#include virtual="/comm/include/company_name_body.inc" -->ƒz[ƒ€" border="0"></a>

@@ -1,0 +1,170 @@
+/** 比較リンク画像 */
+.headerCompLink {
+	background:url(/directplus_ent/system/images/cgnv_icon4451_comp.png) no-repeat;
+	width:44px;
+	height:51px;
+}
+/** 比較リンクカウント部分*/
+#compareLinkCounter{
+	display: block;
+	position: absolute;
+	background-color: rgb(235, 95, 1);
+	left: 140px;
+	width: 20px;
+	top: 20px;
+}
+#compareLinkCounter p{
+	margin: 0px;
+	font-weight: bold;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	font-size: 10px;
+	letter-spacing: 0.5px;
+}
+/** カートを閉じるボタン */
+.compBox_cartClose {
+	background:url(/directplus_ent/system/images/green_comp_icon_popclose.png) no-repeat;
+	width:27px;
+	height:16px;
+	cursor:pointer;
+}
+
+/** 天秤マーク */
+.compBox_title {
+	background:url(/directplus_ent/system/images/green_comp_icon_poptitle2.png) no-repeat;
+	width:27px;
+	height:27px;
+}
+
+/** 比較カート全体 */
+.compBox_b {
+	position:fixed;
+	top:5px;
+	right:0;
+	width:320px;
+	z-index:999999;
+}
+
+.compBox_b .compBox {
+	width:100%;
+	overflow:hidden;
+	padding:5px 0 3px 8px;
+}
+
+/** 比較カート上部画像 */
+.compBox_top {
+	background:url(/directplus_ent/system/images/green_comp_pop1.png) no-repeat;
+	width:350px;
+	height:10px;
+}
+
+/** 比較カート中央部画像 */
+.compBox_middle {
+	background:url(/directplus_ent/system/images/green_comp_pop2.png) 0 0 repeat-y;
+}
+
+/** 比較カート下部画像 */
+.compBox_bottom {
+	background:url(/directplus_ent/system/images/green_comp_pop3.png) no-repeat;
+	width:350px;
+	height:16px;
+}
+
+/** 比較カート左側 */
+.compBox_b .compBox .L40 {
+	float:left;
+	width:40px;
+	margin-right:10px;
+}
+
+/** 比較カート中心部 */
+.compBox_b .compBox .L270 {
+	float:left;
+	width:270px;
+}
+
+/** PCマーク */
+.compBox_pc {
+	background:url(/directplus_ent/system/images/green_comp_icon_pc.png) 0 0 no-repeat;
+	height:45px;
+	overflow:hidden;
+	position:relative;
+	width:100%;
+}
+
+/** プリンタ-マーク */
+.compBox_printer {
+	background:url(/directplus_ent/system/images/green_comp_icon_printer.png) 0 0 no-repeat;
+	clear:both;
+	height:45px;
+	overflow:hidden;
+	position:relative;
+	width:100%;
+}
+
+/** リンク矢印 */
+.compBox_linkarrow {
+	background:url(/directplus_ent/system/images/comp_linkarrow_org.png) 0 0 no-repeat;
+	width:20px;
+	height:20px;
+	cursor:pointer;
+}
+
+.compBox .cNo {
+	position:absolute;
+	top:16px;
+	left:5px;
+	width:20px;
+	text-align:center;
+}
+
+.compBox .cTxt {
+	position:absolute;
+	top:10px;
+	left:70px;
+}
+
+.compBox .cLink {
+	position:absolute;
+	top:8px;
+	left:235px;
+}
+
+#compareLinkCount {
+	white-space: nowrap;
+}
+
+.use_product a:hover{
+	text-decoration : none
+}
+
+/** ファセット検索結果画面 */
+
+/** ローディグ中画像(比較) */
+div.compareButtonLoading{
+	text-align:center;
+}
+.loading_img{
+	text-align:center;
+	width:24px;
+	height:24px;
+}
+/** 製品を比べるボタン */
+div.compareButtonWrap{
+	Align:center;
+	margin-top:18px;
+	display:none;
+}
+/** ローディグ中画像(購買) */
+img.purchaseButtonLoading{
+	width:24px;
+	height:24px;
+	text-align:center;
+	margin-left: 48px;
+	margin-right: 45px;
+}
+/** 比較リンク（0件の時選択不可） */
+#compareLinkBody .header_link div{
+	user-select: none;
+	-webkit-user-select:none;
+}

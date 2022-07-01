@@ -1,0 +1,48 @@
+<table border="0" cellpadding="0" cellspacing="0" width="740">
+<tr class="decoration">
+<td width="1" colspan="5" align="left" valign="top" bgcolor="#6699CC"><img src="/directplus_ent/images/s.gif" width="1" height="1" alt=""></td>
+<td colspan="2" width="666" align="left" valign="top"><img src="/directplus_ent/images/s.gif" width="1" height="1" alt=""></td>
+<td width="1" rowspan="3" align="left" valign="top" bgcolor="#CCCCCC"><img src="/directplus_ent/s.gif" width="1" height="1" alt=""></td>
+</tr>
+<tr class="decoration">
+<td align="left" valign="top" bgcolor="#6699CC"><img src="images/s.gif" width="1" height="18" alt="" class="decoration"></td>
+<td align="left" valign="top"><img src="/directplus_ent/images/s.gif" width="10" height="1" alt=""></td>
+	  
+<td align="left" valign="top" class="small">PC関連</td>
+	  
+<td align="left" valign="top"><img src="/directplus_ent/images/s.gif" width="10" height="8" alt=""></td>
+<td width="1" align="left" valign="top" bgcolor="#6699CC"><img src="/directplus_ent/images/s.gif" width="1" height="1" alt=""></td>
+<td align="left" valign="top"><img src="/directplus_ent/images/s.gif" width="5" height="1" alt=""></td>
+	  
+<td width="666" align="left" valign="top"><span class="linkarrow">≫</span><a href="http://www.directplus.compaq.co.jp/is-bin/INTERSHOP.enfinity/eCS/Store/ja/-/JPY/BrowseCatalogForBusiness-Start;%24sid%24X13EPj6yK4HTxAIqcA_lr0vTdgwJ5Lb2?CategoryName=DPBProjector" class="small">デジタルプロジェクタ</a> 
+&nbsp;&nbsp;|&nbsp;&nbsp;<span class="linkarrow">≫</span><a href="http://www.directplus.compaq.co.jp/is-bin/INTERSHOP.enfinity/eCS/Store/ja/-/JPY/BrowseCatalogForBusiness-Start;%24sid%24X13EPj6yK4HTxAIqcA_lr0vTdgwJ5Lb2?CategoryName=DPBPrinter" class="small">プリンタ</a> 
+&nbsp;&nbsp;|&nbsp;&nbsp;<span class="linkarrow">≫</span><a href="http://www.directplus.compaq.co.jp/is-bin/INTERSHOP.enfinity/eCS/Store/ja/-/JPY/BrowseCatalogForBusiness-Start;%24sid%24X13EPj6yK4HTxAIqcA_lr0vTdgwJ5Lb2?CategoryName=DPBPrinterSupply" class="small">プリンタサプライ＆アクセサリ</a> 
+&nbsp;&nbsp;|&nbsp;&nbsp;<span class="linkarrow">≫</span><a href="http://www.directplus.compaq.co.jp/is-bin/INTERSHOP.enfinity/eCS/Store/ja/-/JPY/BrowseCatalogForBusiness-Start;%24sid%24X13EPj6yK4HTxAIqcA_lr0vTdgwJ5Lb2?CategoryName=DPBService" class="small">ハードウェア/ソフトウェア</a> 
+&nbsp;&nbsp;|&nbsp;&nbsp;<span class="linkarrow">≫</span><a href="http://www.directplus.compaq.co.jp/is-bin/INTERSHOP.enfinity/eCS/Store/ja/-/JPY/BrowseCatalogForBusiness-Start;%24sid%24X13EPj6yK4HTxAIqcA_lr0vTdgwJ5Lb2?CategoryName=DPBService" class="small">純正オプション</a> 
+&nbsp;&nbsp;|&nbsp;&nbsp;<span class="linkarrow">≫</span><a href="http://www.directplus.compaq.co.jp/is-bin/INTERSHOP.enfinity/eCS/Store/ja/-/JPY/BrowseCatalogForBusiness-Start;%24sid%24X13EPj6yK4HTxAIqcA_lr0vTdgwJ5Lb2?CategoryName=DPB3rdParty" class="small">その他オプション(他社製品）</a> 
+&nbsp;&nbsp;|&nbsp;&nbsp;<span class="linkarrow">≫</span><a href="/directplus_ent/solution/index.html" class="small">ソリューション/SIサービス</a> 
+</tr>
+<tr class="decoration">
+<td bgcolor="#6699CC"><img src="/directplus_ent/images/s.gif" width="1" height="1" alt=""></td>
+<td colspan="4"><img src="/directplus_ent/images/s.gif" width="1" height="1" alt=""></td>
+<td colspan="2" bgcolor="#6699CC"><img src="/directplus_ent/images/s.gif" width="1" height="1" alt=""></td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="740">
+<tr>
+<td width="1" align="left" valign="top" bgcolor="#6699CC"><img src="/directplus_ent/images/s.gif" width="1" height="18" alt="" class="decoration"></td>
+<td align="left" valign="top" class="color003366" colspan="3" width="738">
+<img src="/directplus_ent/images/s.gif" width="10" height="1" alt=""><span class="linkarrow">≫</span><a href="http://www.directplus.compaq.co.jp/is-bin/INTERSHOP.enfinity/eCS/Store/ja/-/JPY/BrowseCatalogForBusiness-Start;%24sid%24X13EPj6yK4HTxAIqcA_lr0vTdgwJ5Lb2?CategoryName=DPBDesktop" class="small" title="Computers &gt; デスクトップ">デスクトップ</a>
+<img src="/directplus_ent/images/s.gif" width="10" height="1" alt=""><span class="linkarrow">≫</span><a href="http://www.directplus.compaq.co.jp/is-bin/INTERSHOP.enfinity/eCS/Store/ja/-/JPY/BrowseCatalogForBusiness-Start;%24sid%24X13EPj6yK4HTxAIqcA_lr0vTdgwJ5Lb2?CategoryName=DPBNotebook" class="small" title="Computers &gt; ノートブック">ノートブック</a>
+<img src="/directplus_ent/images/s.gif" width="10" height="1" alt=""><span class="linkarrow">≫</span><a href="http://www.directplus.compaq.co.jp/is-bin/INTERSHOP.enfinity/eCS/Store/ja/-/JPY/BrowseCatalogForBusiness-Start;%24sid%24X13EPj6yK4HTxAIqcA_lr0vTdgwJ5Lb2?CategoryName=DPBTabletPC" class="small" title="Computers &gt; タブレット">タブレット</a>
+<img src="/directplus_ent/images/s.gif" width="10" height="1" alt=""><span class="linkarrow">≫</span><a href="http://www.directplus.compaq.co.jp/is-bin/INTERSHOP.enfinity/eCS/Store/ja/-/JPY/BrowseCatalogForBusiness-Start;%24sid%24X13EPj6yK4HTxAIqcA_lr0vTdgwJ5Lb2?CategoryName=DPBworkstation" class="small" title="Computers &gt; ワークステーション">ワークステーション</a>
+<img src="/directplus_ent/images/s.gif" width="10" height="1" alt=""><span class="linkarrow">≫</span><a href="http://www.directplus.compaq.co.jp/is-bin/INTERSHOP.enfinity/eCS/Store/ja/-/JPY/BrowseCatalogForBusiness-Start;%24sid%24X13EPj6yK4HTxAIqcA_lr0vTdgwJ5Lb2?CategoryName=DPBIAServer" class="small" title="Computers &gt; IAサーバ">IAサーバ</a>
+<img src="/directplus_ent/images/s.gif" width="10" height="1" alt=""><span class="linkarrow">≫</span><a href="http://www.directplus.compaq.co.jp/is-bin/INTERSHOP.enfinity/eCS/Store/ja/-/JPY/BrowseCatalogForBusiness-Start;%24sid%24X13EPj6yK4HTxAIqcA_lr0vTdgwJ5Lb2?CategoryName=DPBiPAQ" class="small" title="Computers &gt; PDA">PDA</a>
+     
+</td>
+<td width="1" rowspan="2" align="left" valign="top" bgcolor="#CCCCCC"><img src="/directplus_ent/images/s.gif" width="1" height="1" alt=""></td>
+</tr>
+<tr class="decoration">
+<td colspan="4" bgcolor="#6699CC"><img src="/directplus_ent/images/s.gif" width="1" height="1" alt=""></td>
+</tr>
+</table>

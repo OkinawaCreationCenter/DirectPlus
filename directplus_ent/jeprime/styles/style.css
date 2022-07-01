@@ -1,0 +1,23 @@
+/* リンクカラー上書き */
+a,
+a:active,
+a:link,
+a:visited {
+	color: #000;
+}
+
+/* linkarrow上書き */
+.linkarrow,
+.linkarrowbold {
+	color: #000;
+}
+
+/* 文字色上書き */
+font[color*="#336699"] {
+	color: #000;
+}
+
+/* 背景色上書き */
+*[bgcolor*="#336699"] {
+	background-color: #425563;
+}

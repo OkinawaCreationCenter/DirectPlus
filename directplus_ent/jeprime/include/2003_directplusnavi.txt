@@ -1,0 +1,13 @@
+<table border=0 cellpadding=0 cellspacing=0>
+<tr><td>
+<a href="https://www.hpe.com/jp" target="_blank" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('navi1','','/directplus_ent/jeprime/images/hphome_on.gif',1)"><img src="/directplus_ent/jeprime/images/hphome_off.gif" width="96" height="19" border="0" alt="HPホーム" name="navi1"></a></td>
+<td><img src="images/dot.gif" width="1" height="1"></td>
+<td>
+<a href="https://onlinestore-japan.hpe.com/is-bin/INTERSHOP.enfinity/WFS/Directplus-Advantage-Site/ja_JP/-/JPY/StorefrontForAdvantage-Start" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('navi2','','/directplus_ent/jeprime/images/hpjeprime_on.gif',1)"><img src="/directplus_ent/jeprime/images/hpjeprime_off.gif" width="174" height="19" border="0" alt="HP J-ePrimeホーム" name="navi2"></a></td>
+<td><img src="images/dot.gif" width="1" height="1"></td>
+<td>
+<a href="/directplus_ent/jeprime/howto/index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('navi3','','/directplus_ent/jeprime/images/goriyou_on.gif',1)"><img src="/directplus_ent/jeprime/images/goriyou_off.gif" width="105" height="19" border="0" alt="ご利用方法" name="navi3"></a></td>
+<td><img src="images/dot.gif" width="1" height="1"></td>
+<td>
+<a href="#" onClick="MM_openBrWindow('/directplus_ent/jeprime/comments/comment1.html','Comments','width=390,height=520')"  onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('navi4','','/directplus_ent/jeprime/images/mailtoiawase_on.gif',1)"><img src="/directplus_ent/jeprime/images/mailtoiawase_off.gif" width="167" height="19" border="0" alt="メールでのお問い合わせ" name="navi4"></a></td>
+</tr></table>

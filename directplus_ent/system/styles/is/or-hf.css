@@ -1,0 +1,48 @@
+/* Header -----------------------------------*/
+.header {
+	height: 90px;
+	background-color: #425563;
+}
+.header .hf_top_menu .level2 .separator div {
+	border-top:none;
+}
+.header .primary_nav {
+	float:right !important;
+}
+/*for IE7*/
+html*.header .hp_logo A.hf_logo IMG {
+	display: block !important;
+	width:120px;
+	height:70px;
+}
+/* /Header */
+
+/* footer -----------------------------------*/
+.footer_lang_container {
+	background:#f0f0f0;
+}
+.footer_container {
+	background:#f0f0f0;
+}
+.footer .cs-container {
+	padding-left:0;
+}
+.footer .site_links div.fstchild {
+	padding-left:0;
+}
+.footer .ul_site_links li.first_li {
+	padding-bottom:10px;
+	line-height:25px;
+}
+.footer .site_links {
+	border-bottom:none;
+	padding:0;
+}
+.footer .hp_employees_container {
+	margin-bottom:0;
+	margin-top:0;
+}
+.footer .hp_employees_container a, .footer .hp_employees_container a:visited {
+	margin-left:0;
+}
+/* /footer */

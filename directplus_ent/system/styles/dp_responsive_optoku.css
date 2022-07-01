@@ -1,0 +1,636 @@
+@charset "utf-8";
+
+/*START オプ得
+-------------------------------------------------*/
+.optokuSchedule .left {
+	display:table-cell;
+	vertical-align:middle;
+	background-color:#425563;
+	color:#FFF;
+	padding:10px 20px;
+	font-weight:bold;
+}
+.optokuSchedule .right {
+	display:table-cell;
+	padding-left:20px;
+}
+@media only screen and (max-width:999px){
+	.optokuSchedule .left {
+		display:block;
+		padding:10px 0;
+		text-align:center;
+	}
+	.optokuSchedule .right {
+		display:block;
+		padding:15px;
+		border-left:1px solid #CCC;
+		border-right:1px solid #CCC;
+		border-bottom:1px solid #CCC;
+		box-sizing:border-box;
+	}
+}
+.productsOption .left {
+	display:table-cell;
+	width:31%;
+	vertical-align:middle;
+	padding-right:20px;
+	position:relative;
+}
+.productsOption .right {
+	display:table-cell;
+	width:69%;
+	border:4px solid #CCC;
+	padding:15px;
+	box-sizing:border-box;
+}
+.productsOption .left img {
+	width:220px;
+}
+@media only screen and (max-width:999px){
+	.productsOption .left img {
+		width:200px;
+	}
+}
+.productsOption .right ul li {
+	float:left;
+	width:25%;
+	text-align:center;
+	font-weight:bold;
+	line-height:1.2;
+	margin-bottom:20px;
+}
+.productsOption .right ul li img {
+	margin:0 auto;
+	width:100%;
+	max-width:130px;
+	margin-bottom:10px;
+}
+@media only screen and (max-width:767px){
+	.productsOption .right ul li img {
+		max-width:100px;
+	}
+}
+.productsOption .left:after {
+	content:"";
+	display:block;
+	width:40px;
+	height:40px;
+	background-image:url(/directplus_ent/optoku/images/icon_plus.gif);
+	background-repeat:no-repeat;
+	-webkit-background-size: 40px auto;
+	-moz-background-size: 40px auto;
+	-ie-background-size: 40px auto;
+	-o-background-size:420px auto;
+	background-size: 40px auto;
+	position:absolute;
+	right:25px;
+	top:190px;
+}
+.optokuIconWindows {
+	position:relative;
+	padding-left:25px;
+}
+.optokuIconWindows:before {
+	content:"";
+	width:20px;
+	height:20px;
+	background-image:url(/directplus_ent/optoku/images/icon_windows.gif);
+	background-repeat:no-repeat;
+	-webkit-background-size: 20px auto;
+	-moz-background-size: 20px auto;
+	-ie-background-size: 20px auto;
+	-o-background-size: 20px auto;
+	background-size: 20px auto;
+	position:absolute;
+	top:2px;
+	left:0;
+}
+@media only screen and (max-width:999px){
+	.productsOption .left {
+		display:block;
+		width:100%;
+		padding-bottom:80px;
+		padding-right:0;
+	}
+	.productsOption .right {
+		display:block;
+		width:100%;
+	}
+	.productsOption .left img {
+		margin:0 auto;
+	}
+	.productsOption .left:after {
+		top:initial;
+		right:initial;
+		bottom:25px;
+		left:50%;
+		margin-top:0;
+		margin-left:-20px;
+	}
+	.productsOption .right ul li {
+		width:50%;
+	}
+}
+.optokuRecommendPrice .normalPrice {
+	text-align:center;
+	font-size:20px;
+	line-height:1.2;
+	font-weight:bold;
+	margin-bottom:20px;
+}
+.optokuRecommendPrice .optokuPrice {
+	text-align:center;
+	font-weight:bold;
+	line-height:1.2;
+	margin-top:20px;
+}
+.optokuRecommendPrice .optokuPrice span:first-child {
+	font-size:20px;
+}
+.optokuRecommendPrice .optokuPrice span:nth-child(2) {
+	font-size:60px;
+}
+.optokuRecommendPrice .optokuPrice span:last-child {
+	font-size:30px;
+}
+@media only screen and (max-width:767px){
+	.optokuRecommendPrice .normalPrice, .optokuRecommendPrice .optokuPrice {
+		text-align:left;
+	}
+	.optokuRecommendPrice .optokuPrice span:first-child {
+		display:block;
+	}
+	.optokuRecommendPrice .optokuPrice span:nth-child(2) {
+		font-size:32px;
+	}
+	.optokuRecommendPrice .optokuPrice span:last-child {
+		font-size:25px;
+	}
+}
+.optokuTable th, .optokuTable td {
+	border:solid 1px #CCC;
+	border-collapse:collapse;
+	padding:10px 5px;
+	vertical-align:middle;
+}
+.optokuTable th {
+	background-color:#F6F6F6;
+}
+.optokuTable .cell1 {width:54%;}
+.optokuTable .cell2 {width:8%;}
+.optokuTable .cell3 {width:19%;}
+.optokuTable .cell4 {width:19%;}
+@media only screen and (max-width:999px){
+	.optokuTable .cell1 {width:36%;}
+	.optokuTable .cell2 {width:10%;}
+	.optokuTable .cell3 {width:27%;}
+	.optokuTable .cell4 {width:27%;}
+}
+.optokuRecommendImg {
+	width:280px;
+	margin:0 auto;
+}
+@media only screen and (max-width:767px){
+	.optokuRecommendImg {
+		width:250px;
+		margin:0 auto;
+	}
+}
+
+/*START オプ得 製品ページ
+-------------------------------------------------*/
+.content1000px.optoku {
+	overflow:visible;
+}
+.optokuTitle {
+	position:relative;
+	margin-bottom:15px;
+	padding-bottom:5px;
+	border-bottom:1px solid #CCC;
+}
+.optokuTitle a {
+	position:absolute;
+	right:0;
+	bottom:10px;
+}
+@media only screen and (max-width:999px){
+	.optokuTitle a {
+		position:static;
+		float:right;
+	}
+}
+.optokuProductsTwoColumn .clm1, .optokuProductsTwoColumn .clm2 {
+	float:left;
+}
+.optokuProductsTwoColumn .clm1 {
+	width:36%;
+	margin-right:2%;
+}
+.optokuProductsTwoColumn .clm2 {
+	width:62%;
+}
+@media only screen and (max-width:767px){
+	.optokuProductsTwoColumn .clm1, .optokuProductsTwoColumn .clm2 {
+		float:none;
+		width:100%;
+	}
+	.optokuProductsTwoColumn .clm1 {
+		margin-right:0;
+		margin-bottom:20px;
+	}
+}
+.optokuProdMainImg {
+	width:100%;
+	max-width:280px;
+	margin:0 auto;
+	display:block;
+}
+.optokuProdMainImg img {
+	width:100%;
+}
+@media only screen and (max-width:767px){
+	.optokuProdMainImg {
+		width:190px;
+	}
+}
+.optokuPriceArea {
+	margin-bottom:20px;
+}
+.optokuPriceArea .optokuPrice .left,
+.optokuPriceArea .optokuPrice .right {
+	display:table-cell;
+	vertical-align:middle;
+}
+.optokuPriceArea .optokuPrice .left {
+	width:115px;
+	padding-right:10px;
+}
+@media only screen and (max-width:999px){
+	.optokuPriceArea .optokuPrice .left,
+	.optokuPriceArea .optokuPrice .right {
+		display:block;
+	}
+	.optokuPriceArea .optokuPrice .left {
+		width:100%;
+		padding-right:0;
+	}
+	.optokuPriceArea .optokuPrice .left br {
+		display:none;
+	}
+}
+.optokuPriceArea .txt16, .optokuPriceArea .txt20, .optokuPriceArea .txt26, .optokuPriceArea .txt50, .optokuPriceArea .txt60 {
+	line-height:1.4;
+}
+.optokuPriceArea .txt16 {
+	font-size:16px;
+}
+.optokuPriceArea .txt18 {
+	font-size:18px;
+	line-height:1.4;
+}
+.optokuPriceArea .txt26 {
+	font-size:26px;
+}
+.optokuPriceArea .txt50 {
+	font-size:50px;
+	position:relative;
+	bottom:-3px;
+	line-height:1.2;
+}
+.optokuPriceArea .txt60 {
+	font-size:60px;
+	position:relative;
+	bottom:-3px;
+	line-height:1.2;
+}
+@media only screen and (max-width:999px){
+	.optokuPriceArea .txt18 {
+		font-size:16px;
+	}
+	.optokuPriceArea .txt50 {
+		font-size:36px;
+	}
+	.optokuPriceArea .txt60 {
+		font-size:36px;
+	}
+	.optokuPriceArea .txt26 {
+		font-size:20px;
+	}
+}
+
+.optokuTable {
+	width:100%;
+}
+@media only screen and (max-width:999px){
+	.optokuTable {
+		overflow: scroll;
+	}
+}
+.optokuTable table {
+	width:1000px;
+}
+.optokuTable table th {
+	background-color:#425563;
+	color:#FFF;
+	font-weight:bold;
+}
+.optokuTable table tr:nth-child(even) td {
+	background-color:#F6F6F6;
+}
+.optokuTable table tr.whiteCell td {
+	background-color: #FFF !important;
+}
+.optokuTable table tr.gryCell td {
+	background-color: #F6F6F6 !important;
+}
+
+/*START オプ得製品ラインアップスライダー
+-------------------------------------------------*/
+.optokuSlider {
+	width:100%;
+	position:relative;
+}
+.optokuSlider .sliderCnt {
+	width:100%;
+	border-top:1px solid #CCC;
+}
+/* ↓5 Panel 
+.optokuSlider .sliderCnt .sliderPnl {
+	float:left;
+	width:20%;
+	box-sizing:border-box;
+	padding:20px 15px;
+	border-right:1px dotted #CCC;
+	border-bottom:1px solid #CCC;
+	overflow:hidden;
+	text-align:center;
+	line-height:1.4;
+	position:relative;
+}*/
+/* ↓4 Panel */
+/*.optokuSlider .sliderCnt .sliderPnl {
+	float:left;
+	width:25%;
+	box-sizing:border-box;
+	padding:20px 15px;
+	border-right:1px dotted #CCC;
+	border-bottom:1px solid #CCC;
+	overflow:hidden;
+	text-align:center;
+	line-height:1.4;
+	position:relative;
+}*/
+/* ↓3 Panel */
+.optokuSlider .sliderCnt .sliderPnl {
+	float:left;
+	width:33.333333%;
+	box-sizing:border-box;
+	padding:20px 15px;
+	border-right:1px dotted #CCC;
+	border-bottom:1px solid #CCC;
+/*	height:425px;*/
+	overflow:hidden;
+	text-align:center;
+	line-height:1.4;
+	position:relative;
+}
+/* ↓5 Panel 
+.optokuSlider .sliderCnt .sliderPnl:nth-child(5n) {
+	border-right:1px dotted #FFF;
+}*/
+/* ↓4 Panel*/
+.optokuSlider .sliderCnt .sliderPnl:nth-child(4n) {
+	border-right:1px dotted #FFF;
+}
+@media only screen and (max-width:999px){
+	.optokuSlider .sliderCnt .sliderPnl {
+		width:33.333333%;
+	}
+	/* ↓5 Panel 
+	.optokuSlider .sliderCnt .sliderPnl:nth-child(5n) {
+		border-right:1px dotted #CCC;
+	}*/
+	/* ↓4 Panel */
+	.optokuSlider .sliderCnt .sliderPnl:nth-child(4n) {
+		border-right:1px dotted #CCC;
+	}
+	.optokuSlider .sliderCnt .sliderPnl:nth-child(3n) {
+		border-right:1px dotted #FFF;
+	}
+}
+@media only screen and (max-width:767px){
+	.optokuSlider .sliderCnt .sliderPnl {
+		width:100%;
+	}
+	.optokuSlider .sliderCnt .sliderPnl:nth-child(3n) {
+		border-right:1px dotted #CCC;
+	}
+	.optokuSlider .sliderCnt .sliderPnl:last-child {
+		border-right:1px dotted #FFF;
+	}
+}
+.optokuSliderNav {
+	display:none;
+}
+@media only screen and (max-width:767px){
+	.optokuSliderNav {
+		display:block;
+	}
+}
+.optokuSliderNav .pnlPrev, .optokuSliderNav .pnlNext {
+	position:absolute;
+	top:50%;
+	display:block;
+	background-color:#EEE;
+	width:40px;
+	height:130px;
+	margin-top:-65px;
+	text-indent:100%;
+	white-space:nowrap;
+	overflow:hidden;
+}
+.optokuSliderNav .pnlPrev {
+	left:0;
+	margin-left:-15px;
+}
+.optokuSliderNav .pnlNext {
+	right:0;
+	margin-right:-15px;
+}
+.optokuSliderNav .pnlPrev:before,
+.optokuSliderNav .pnlNext:before {
+	content:"";
+	display:block;
+	width:20px;
+	height:20px;
+	border-bottom:2px solid #BBB;
+	border-right:2px solid #BBB;
+	position:absolute;
+	top:50%;
+	-moz-transform-origin: 0 100%;
+	-webkit-transform-origin: 0 100%;
+	-o-transform-origin: 0 100%;
+	-ms-transform-origin: 0 100%;
+}
+.optokuSliderNav .pnlPrev:before {
+	transform:rotate(135deg);
+	left:24px;
+	margin-top:-37px;
+}
+.optokuSliderNav .pnlNext:before {
+	transform:rotate(-45deg);
+	left:14px;
+	margin-top:-6px;
+}
+.optokuSlider .sliderCnt .sliderPnl .prodName {
+	min-height:45px;
+	font-size:16px;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+.optokuSlider .sliderCnt .sliderPnl img {
+	margin:0 auto;
+	width:170px;
+}
+@media only screen and (max-width:999px){
+	.optokuSlider .sliderCnt .sliderPnl img {
+		width:215px;
+	}
+}
+.optokuSlider .sliderCnt .sliderPnl .prodTxt {
+	text-align:left;
+	display:inline-block;
+	width:170px;
+}
+@media only screen and (max-width:767px){
+	.optokuSlider .sliderCnt .sliderPnl .prodTxt {
+		width:230px;
+	}
+}
+.optokuSlider .sliderCnt .sliderPnl .optokuPrice {
+	background:url(/directplus_ent/optoku/images/slider_arrow.gif) no-repeat;
+	background-size:170px;
+	padding-bottom:10px;
+	padding-top:5px;
+	text-align:center;
+}
+@media only screen and (max-width:767px){
+	.optokuSlider .sliderCnt .sliderPnl .optokuPrice {
+		width:170px;
+		margin:0 auto;
+	}
+}
+/*.optokuSlider .sliderCnt .sliderPnl .optokuPrice {
+	font-size:12px;
+	background-color:#425563;
+	color:#FFF;
+	display:inline-block;
+	height:20px;
+	line-height:22px;
+	padding:0 10px 0 5px;
+	position:relative;
+	margin-bottom:5px;
+}
+.optokuSlider .sliderCnt .sliderPnl .optokuPrice:after {
+	content:"";
+	display:block;
+	width:14px;
+	height:14px;
+	background-color:#425563;
+	position:absolute;
+	top:3px;
+	right:-7px;
+	transform: rotate(45deg);
+}*/
+.optokuSlider .sliderCnt .sliderPnl .btmBtn {
+	width:100%;
+	bottom:20px;
+	left:0;
+}
+.optokuSlider .sliderCnt .sliderPnl .btmBtn a {
+	min-width:170px;
+	padding:10px;
+}
+@media only screen and (max-width:767px){
+	.optokuSlider .sliderCnt .sliderPnl .btmBtn a {
+		min-width:200px;
+		padding:10px 30px;;
+	}
+}
+
+.optokuClm80-20 {
+	width:100%;
+}
+.optokuClm80-20 > .clm1,
+.optokuClm80-20 > .clm2 {
+	float:left;
+	box-sizing:border-box;
+}
+.optokuClm80-20 > .clm1 {
+	width:80%;
+	padding-right:10px;
+}
+.optokuClm80-20 > .clm2 {
+	width:20%;
+	padding-left:10px;
+}
+.optokuListWithImg {
+	display:table;
+}
+.optokuListWithImg .clm1,
+.optokuListWithImg .clm2,
+.optokuListWithImg .clm3 {
+	display:table-cell;
+}
+.optokuListWithImg .clm1 {
+	vertical-align:middle;
+}
+.optokuListWithImg .clm2,
+.optokuListWithImg .clm3 {
+	vertical-align:bottom;
+}
+.optokuListWithImg .clm2 {
+	padding: 0 20px;
+}
+@media only screen and (max-width:999px){
+	.optokuListWithImg .clm1 {
+		display:none;
+	}
+	.optokuListWithImg .clm2,
+	.optokuListWithImg .clm3 {
+		display:block;
+	}
+	.optokuListWithImg .clm1,
+	.optokuListWithImg .clm2 {
+		margin-bottom:20px;
+	}
+	.optokuListWithImg .clm2 {
+		padding:0;
+	}
+	
+}
+.optokuVideoCnt {
+	width:560px;
+	margin:0 auto;
+}
+@media only screen and (max-width:767px){
+	.optokuVideoCnt {
+		width:100%;
+	}
+	.optokuVideoCnt iframe {
+		width:100%;
+	}
+}
+.img70px {
+	width:100%;
+	max-width:70px;
+	margin:0 auto;
+}
+.optokuPriceArea2 {
+	padding-left:60px;
+}
+@media only screen and (max-width:999px){
+	.optokuPriceArea2 {
+		padding-left:0;
+	}
+}

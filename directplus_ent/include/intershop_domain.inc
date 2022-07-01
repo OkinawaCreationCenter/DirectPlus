@@ -1,0 +1,1 @@
+https://onlinestore-japan.hpe.com

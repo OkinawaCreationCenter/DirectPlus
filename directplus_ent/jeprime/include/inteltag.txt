@@ -1,0 +1,6 @@
+<table width="546" border="0" cellspacing="2" cellpadding="0">
+<tr valign="top">
+<td class="small">※</td>
+<td class="small">Intel、インテル、Intel Insideロゴ、Pentium、Celeron、およびSpeedStepは、アメリカ合衆国およびその他の国におけるインテルコーポレーションまたはその子会社の商標または登録商標です。</td>
+</tr>
+</table>

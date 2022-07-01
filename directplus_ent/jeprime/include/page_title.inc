@@ -1,0 +1,3 @@
+
+		<!-- <a href="リンク先URLを入れてください" class="udrlinesmall">階層１(セクション)</a>&nbsp; <span class="color666666">&gt;</span> &nbsp;<a href="リンク先URLを入れてください" class="udrlinesmall">階層２(サブセクション)</a> --><br>
+		<img src="/comm/legacy/img/s.gif" width="1" height="6" alt=""><h1><a href="<!--#include virtual="/directplus_ent/include/intershop_domain.inc" -->/is-bin/INTERSHOP.enfinity/WFS/Directplus-Advantage-Site/ja_JP/-/JPY/StorefrontForAdvantage-Start"><img src="/directplus_ent/jeprime/images/page_title_hpeadv.gif" alt="<!--#include virtual="/comm/include/advantageplus_name.inc" -->" width="250" height="32" border="0"></a></h1><!-- タグラインを入れる（任意） -->

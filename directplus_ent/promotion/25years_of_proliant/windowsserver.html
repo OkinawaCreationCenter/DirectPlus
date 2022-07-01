@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<!--#include virtual="/directplus_ent/system/includes/dpb_lang.inc" -->
+<head>
+<!--#include virtual="/directplus_ent/system/includes/dpb_meta_charset_responsive.inc" -->
+<title>「ProLiant」とWindows Server | <!--#include virtual="/comm/include/directplus_name.inc" -->オンラインストア<!--#include virtual="/comm/include/company_name_title_utf8.inc" --></title>
+<meta name="keywords" content="パートナーシップ, マイクロソフト, Microsoft, Microsoft Azure, Microsoft SQL Server, Microsoft Office365, proliant, hpe proliant, proliant 25周年, サーバーの歴史, proliantの歴史, hpe, ヒューレット・パッカード"/>
+<meta name="description" content="HPEとマイクロソフトの協力関係は、共同のパートナーエコシステム、強力な製品とソリューションのポートフォリオ、HPE Pointnextの経験と知識を活かしてお客様に大きな価値を提供しています。"/>
+<meta name="bu" content="tsg">
+<meta name="sub_bu" content="TSG.Servers">
+<meta name="lifecycle" content="presales.selection"/>
+<meta name="segment" content="Commercial.Large">
+<meta name="company_code" content="hpe">
+<meta name="target_country" content="jp">
+<meta name="web_section_id" content="R11974">
+<meta name="hp_design_version" content="hpexpnontridion">
+<meta name="user_profile" content="Commercial">
+<meta name="page_content" content="Products">
+<meta name="robots" content="index,follow,noarchive">
+<meta name="date" content="2019-02-04">
+
+<!--#include virtual="/directplus_ent/system/includes/dpb_meta_responsive.inc" -->
+
+<!--#include virtual="/directplus_ent/system/includes/dpb_caas-header-footer_responsive.inc" -->
+<style>
+.column33-33-33 {
+	display: table;
+	border-spacing: 15px 0;
+}
+.column33-33-33 > .clm1, .column33-33-33 > .clm2, .column33-33-33 > .clm3 {
+	display: table-cell;
+}
+.historyThreeColumn {
+	width:100%;
+	display: table;
+	min-height:160px;
+	height:160px;
+	position: relative;
+}
+.historyThreeColumn > .clm1, .historyThreeColumn > .clm2, .historyThreeColumn > .clm3 {
+	display: table-cell;
+	position:relative;
+	vertical-align: middle;
+}
+.historyThreeColumn > .clm1 {
+	width: 35%;
+	min-width: 160px;
+	text-align: right;
+	padding-right: 30px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.historyThreeColumn > .clm2 {
+	position: absolute;
+}
+.historyThreeColumn > .clm3 {
+	padding-left: 150px;
+}
+.historyYear {
+	width: 100px;
+	height: 100px;
+	border: 5px solid #ccc;
+	border-radius: 100px;
+	text-align: center;
+	background: #fff;
+	position: absolute;
+	top: 50%;
+	margin-top: 25px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.historyYear p {
+	margin-top: 32px;
+}
+.historyThreeColumn .clm2:before {
+    content: "";
+    display: block;
+    width: 5px;
+    background-color: #CCC;
+    position: absolute;
+    left: 54px;
+    height: 200px;
+    margin-top: -20px;
+    top: 5px;
+}
+.historyWrapper {
+    margin-top: 40px;
+}
+@media only screen and (max-width:628px) {
+.historyThreeColumn > .clm1 {
+	width: 100px;
+	min-width: 100px;
+	font-size: 12px;
+	font-weight: bold;
+	position: absolute;
+	text-align: left;
+	top: 60px;
+}
+.historyThreeColumn > .clm2 {
+    left: 86px;
+}
+.historyYear {
+    width: 80px;
+    height: 80px;
+	margin-top: 36px;
+}
+.historyYear p {
+    margin-top: 22px;
+}
+.historyThreeColumn .clm2:before {
+	left: 42px;
+}
+.historyThreeColumn > .clm3 {
+    padding-left: 182px;
+    font-size: 12px;
+}
+.historyThreeColumn .clm2:before {
+	height: 300px;
+}
+.historyThreeColumn:last-child .clm2:before {
+	height: 200px;
+}
+}
+.border_darkSteel {
+	border: 5px solid #5F7A76;
+}
+.border_bronze {
+	border: 5px solid #80746E;
+}
+.border_purple {
+	border: 5px solid #614767;
+}
+.threeColumn33-33-33 {
+	display: table;
+	border-spacing: 15px 0;
+	border-collapse: separate;
+	margin: 0 -30px 0 -15px;
+}
+.threeColumn33-33-33 > .clm1, .threeColumn33-33-33 > .clm2, .threeColumn33-33-33 > .clm3 {
+	padding: 20px 15px;
+	display: table-cell;
+	width: 33.3%;
+	vertical-align: top;
+}
+@media only screen and (max-width:999px) {
+	.threeColumn33-33-33 {
+	display: block;
+	margin: 0;
+}
+	.threeColumn33-33-33 > .clm1, .threeColumn33-33-33 > .clm2, .threeColumn33-33-33 > .clm3 {
+		width: 100%;
+		display: block;
+		box-sizing: border-box;
+		margin-bottom: 20px;
+	}
+}
+.windowserver .threeColumn33-33-33 > .clm1, .windowserver .threeColumn33-33-33 > .clm2, .windowserver .threeColumn33-33-33 > .clm3, .windowserver.tCell75-25 > .clm2 {
+	border: 1px solid #ccc;
+}
+.tCell50-50 {
+	width: 100%;
+	display: table;
+}
+.tCell50-50 > .clm1 {
+	width: 50%;
+	padding-right: 1%;
+}
+.tCell50-50 > .clm2 {
+	width: 50%;
+	padding-left: 1%;
+}
+.tCell50-50 > .clm1, .tCell50-50 > .clm2 {
+	display: table-cell;
+	vertical-align: middle;
+	box-sizing: border-box;
+}
+@media only screen and (max-width:999px) {
+.tCell50-50 > .clm1 {
+	width: 100%;
+	padding-right: 0;
+	display: block;
+}
+.tCell50-50 > .clm2 {
+	width: 100%;
+	padding-right: 0;
+	padding-left: 0;
+	display: block;
+	margin-top: 20px;
+}
+}
+.tCell20-80 {
+	width: 100%;
+	display: table;
+}
+.tCell20-80 > .clm1 {
+	width: 20%;
+	padding-right: 1%;
+	vertical-align: top !important;
+}
+.tCell20-80 > .clm2 {
+	width: 80%;
+	padding-left: 1%;
+	vertical-align: top !important;
+	position: relative;
+}
+.tCell20-80 > .clm1, .tCell20-80 > .clm2 {
+	display: table-cell;
+	vertical-align: middle;
+	box-sizing: border-box;
+}
+.mx100 {
+	max-width: 100%;
+}
+@media only screen and (min-width:1000px) {
+.v_bottom {
+	position: absolute;
+	bottom: 0;
+}
+}
+.tCell75-25 {
+	width: 100%;
+	display: table;
+}
+.tCell75-25 > .clm1 {
+	/*width: 58.5%;*/
+	padding-right: 15px;
+	vertical-align: top !important;
+}
+.tCell75-25 > .clm2 {
+	width: 24%;
+	padding-left: 15px;
+	vertical-align: top !important;
+	position: relative;
+}
+.tCell75-25 > .clm1, .tCell75-25 > .clm2 {
+	display: table-cell;
+	vertical-align: top;
+	box-sizing: border-box;
+}
+@media only screen and (max-width:999px) {
+.tCell75-25 > .clm1 {
+	width: 100%;
+	padding-right: 0;
+}
+.tCell75-25 > .clm2 {
+	display: none;
+}
+.pc_hide {
+	display: none;
+}
+}
+ @media only screen and (min-width:1000px) {
+.sp_hide {
+	display: none;
+}
+.windowserver .threeColumn33-33-33:first-child {
+	margin-bottom: 15px;
+}
+}
+.hitoryProductImg {
+	width: 225px;
+	margin: 0 auto;
+}
+.column25-75 {
+	display: table;
+}
+.column25-75 .clm1 {
+	width: 25%;
+	display: table-cell;
+	float: none;
+	vertical-align: top;
+}
+.column25-75 .clm2 {
+	width: 75%;
+	display: table-cell;
+	float: none;
+}
+.windowserver .threeColumn33-33-33 > .clm1, .windowserver .threeColumn33-33-33 > .clm2, .windowserver .threeColumn33-33-33 > .clm3 {
+	vertical-align: top;
+}
+.windowserver.tCell75-25 > .clm2 {
+	padding-left: 0;
+}
+@media only screen and (max-width:767px) {
+.column25-75 .clm1, .column25-75 .clm2 {
+	width: 100%;
+	display: block;
+}
+.column25-75 .clm2 {
+	text-align: center;
+	padding-top: 0;
+	box-sizing: border-box;
+}
+.column25-75 .clm2 p {
+	text-align: left;
+}
+}
+</style>
+</head>
+<body>
+<div id="page" class="page cal"> 
+  <!--#include virtual="/directplus_ent/system/includes/dpb_totop_target_responsive.inc" --> 
+  <!-- START CaaS header -->
+  <div id="header"></div>
+  <!-- END CaaS header -->
+  
+  <div id="content" class="content"> 
+    
+    <!--#include virtual="/directplus_ent/system/includes/dpb_sub_header_responsive.inc" --> 
+    
+    <!--#include virtual="/directplus_ent/system/includes/dpb_sub_navigation_responsive.inc" -->
+    
+    <div class="bgGry mb40">
+      <div class="contentBox">
+        <div class="breadcrumb">
+          <ul>
+            <li><a href="/directplus_ent/">TOP</a></li>
+            <li><a href="/directplus_ent/promotion/25years_of_proliant/">HPE ProLiantサーバーのイノベーション</a></li>
+            <li>「ProLiant」とWindows Server</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="contentBox">
+      <div class="content1000px">
+        <div class="rightCnt">
+          <h2 class="mb20"> <span class="f28 bold">HPEとマイクロソフト、業界で最も強力なアライアンス</span> </h2>
+          <div class="mb40WithBorder">
+            <div class="mb40">
+              <p> HPEとマイクロソフトの協力関係は、共同のパートナーエコシステム、強力な製品とソリューションのポートフォリオ、HPE Pointnextの経験と知識を活かしてお客様に大きな価値を提供しています。マルチクラウド環境への橋渡し、ビッグデータ分析による新たな洞察、エッジからクラウドまでを結ぶ効果的なハイブリッド環境実現のために、私たちは次の3つのテーマを共有しています。 </p>
+            </div>
+            <div class="alignCtr mb60"><img src="images/img_hpe_microsoft.gif" width="454" class="m0auto mx100"></div>
+            <div class="mb60">
+              <h3 class="alignCtr mb20 f24 bold">HPEとマイクロソフトのアライアンス（3つのイニシアティブ）</h3>
+              <div class="threeColumn33-33-33 mb40 cfx">
+                <div class="clm1 border_darkSteel"><img src="images/icon_windowsserver_cloud.gif" width="120" class="m0auto">
+                    <h4 class="mt30 mb10 f20 bold">Microsoft Azureを活用したハイブリッドIT</h4>
+                    <p>パブリッククラウドとオンプレミスのシームレスな連携を実現するクラス最高のハイブリッドITソリューション</p>
+                </div>
+                <div class="clm2 border_bronze"><img src="images/icon_windowsserver_chart.gif" width="120" class="m0auto">
+                    <h4 class="mt30 mb10 f20 bold">Microsoft SQL Serverとアナリティクス</h4>
+                    <p>データ集約型ワークロードおよび大規模データ分析のためのスケーラブルなソリューション</p>
+                </div>
+                <div class="clm3 border_purple"><img src="images/icon_windowsserver_lightbulb.gif" width="120" class="m0auto">
+                    <h4 class="mt30 mb10 f20 bold">IoTでのAzure活用、Microsoft Office365による生産性向上</h4>
+                    <p>モバイルファーストのデジタルワークプレイスで業界をリードするソリューション</p>
+                </div>
+              </div>
+            </div>
+            <div class="mb60">
+              <h3 class="f24 bold mb20">デジタル時代の成功を加速させる、2人のリーダー、1つのミッション</h3>
+              <div class="tCell50-50">
+                <div class="clm1">
+                  <div class="tCell20-80">
+                    <div class="clm1 pr10"><img src="images/photo_windowsserver01.jpg" width="160"></div>
+                    <div class="clm2">
+                      <p>“HPEとマイクロソフトは、今日最も重要な課題であるハイブリッドIT、アナリティクス、インテリジェントエッジにおいて、お客様を成功に導くために協力しています”</p>
+                      <p class="mt20 v_bottom">Antonio Neri, President and CEO, <br>
+                        Hewlett Packard Enterprise.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="clm2">
+                  <div class="tCell20-80">
+                    <div class="clm1 pr10"><img src="images/photo_windowsserver02.jpg" width="160"></div>
+                    <div class="clm2">
+                      <p>“マイクロソフトとHPEは双方が今日と明日の成功に賭けているので、お客様自身が賭けをする必要はありません”</p>
+                      <p class="mt20 v_bottom">Satya Nadella, CEO,<br>
+                        Microsoft<sup>&reg;</sup> Corporation.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mb100">
+              <h3 class="f24 bold mb20">業界で最も包括的なパートナーシップ</h3>
+              <div class="historyWrapper">
+                <div class="historyThreeColumn cfx">
+                  <div class="clm1"> </div>
+                  <div class="clm2">
+                    <div class="historyYear">
+                      <p>1983</p>
+                    </div>
+                  </div>
+                  <div class="clm3">
+                    <p class="historyTxt">マイクロソフトとのパートナーシップを締結</p>
+                  </div>
+                </div>
+                <div class="historyThreeColumn cfx">
+                  <div class="clm1">Windows NTAdvanced Server 3.1</div>
+                  <div class="clm2">
+                    <div class="historyYear">
+                      <p>1993</p>
+                    </div>
+                  </div>
+                  <div class="clm3">
+                    <p class="historyTxt">世界初のWindows NT Prime Integrator「Frontline Partnership」締結<br>Windows NT 64 bit化</p>
+                  </div>
+                </div>
+                <div class="historyThreeColumn cfx">
+                  <div class="clm1">Windows NT Server 4.0</div>
+                  <div class="clm2">
+                    <div class="historyYear">
+                      <p>1996</p>
+                    </div>
+                  </div>
+                  <div class="clm3">
+                    <p class="historyTxt">Windows NT クラスター技術共同開発<br>Exchange Server 販売・導入サポート</p>
+                  </div>
+                </div>
+                <div class="historyThreeColumn cfx">
+                  <div class="clm1">Windows Server<sup>&reg;</sup> 2000</div>
+                  <div class="clm2">
+                    <div class="historyYear">
+                      <p>2000</p>
+                    </div>
+                  </div>
+                  <div class="clm3">
+                    <p class="historyTxt">Windows Server<sup>&reg;</sup> 開発プラットフォームに採用</p>
+                  </div>
+                </div>
+                <div class="historyThreeColumn cfx">
+                  <div class="clm1">Windows Server<sup>&reg;</sup> 2003</div>
+                  <div class="clm2">
+                    <div class="historyYear">
+                      <p>2003</p>
+                    </div>
+                  </div>
+                  <div class="clm3">
+                    <p class="historyTxt">Windows Server<sup>&reg;</sup> 2003 開発プラットフォームに採用<br>HPE Integrity NonStopとSQL Server<sup>&reg;</sup> 2005との連携</p>
+                  </div>
+                </div>
+                <div class="historyThreeColumn cfx">
+                  <div class="clm1">Windows Server<sup>&reg;</sup> 2008</div>
+                  <div class="clm2">
+                    <div class="historyYear">
+                      <p>2008</p>
+                    </div>
+                  </div>
+                  <div class="clm3">
+                    <p class="historyTxt">Windows Server<sup>&reg;</sup> 2008開発プラットフォームに採用<br>SQL Server<sup>&reg;</sup> 2008早期実証プロジェクト</p>
+                  </div>
+                </div>
+                <div class="historyThreeColumn cfx">
+                  <div class="clm1">Windows Server<sup>&reg;</sup> 2012</div>
+                  <div class="clm2">
+                    <div class="historyYear">
+                      <p>2012</p>
+                    </div>
+                  </div>
+                  <div class="clm3">
+                    <p class="historyTxt"> Windows Server<sup>&reg;</sup> 2012開発プラットフォームに採用<br>SQL Server<sup>&reg;</sup> 2008 × NUMA検証 </p>
+                  </div>
+                </div>
+                <div class="historyThreeColumn cfx">
+                  <div class="clm1"></div>
+                  <div class="clm2">
+                    <!--<div class="historyYear">
+                      <p></p>
+                    </div>-->
+                  </div>
+                  <div class="clm3">
+                    <p class="historyTxt"> SQL Server<sup>&reg;</sup> 2014 × HPE Integrity Superdome X での共同検証</p>
+                  </div>
+                </div>
+                <div class="historyThreeColumn cfx">
+                  <div class="clm1">Windows Server<sup>&reg;</sup> 2016</div>
+                  <div class="clm2">
+                    <div class="historyYear">
+                      <p>2016</p>
+                    </div>
+                  </div>
+                  <div class="clm3">
+                    <p class="historyTxt">Windows Server 2012 R2とSQL Server 2014による、世界最大規模のミッションクリティカル Windows Server システムを構築</p>
+                  </div>
+                </div>
+                <div class="historyThreeColumn cfx">
+                  <div class="clm1">Windows Server<sup>&reg;</sup> 2019</div>
+                  <div class="clm2">
+                    <div class="historyYear">
+                      <p>2020</p>
+                    </div>
+                  </div>
+                  <div class="clm3">
+                    <p class="historyTxt">Azureを活用したハイブリッドIT<br>SQL Server<sup>&reg;</sup>とアナリティクス<br>IoTでのAzure活用、Office 365による生産性向上</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mb60">
+              <h3 class="f24 bold mb20 sp_hide">30+ years of the alliance</h3>
+              <div class="windowserver tCell75-25">
+                <div class="clm1">
+                  <div class="threeColumn33-33-33 cfx">
+                    <div class="clm1"><img src="images/icon_windowsserver_menu.gif" width="120" class="m0auto">
+                        <p class="mt30">包括的かつ革新的な製品とソリューションのポートフォリオ</p>
+                    </div>
+                    <div class="clm2"><img src="images/icon_windowsserver_wrench.gif" width="120" class="m0auto">
+                        <p class="mt30">マイクロソフトのテクノロジーに精通したHPE Pointnext のトータルサービス</p>
+                    </div>
+                    <div class="clm3"><img src="images/icon_windowsserver_gear.gif" width="120" class="m0auto">
+                        <p class="mt30">マイクロソフトのテクノロジーおよびハイブリッドインフラに最適化されたハードウェアとソフトウェアの共同エンジニアリング</p>
+                    </div>
+                  </div>
+                  <div class="windowserver threeColumn33-33-33 cfx">
+                    <div class="clm1"><img src="images/icon_windowsserver_puzzle_piece.gif" width="120" class="m0auto">
+                        <p class="mt30">ビジネスに今すぐ活用できる事前テストおよび事前統合済みのソリューション</p>
+                    </div>
+                    <div class="clm2"><img src="images/icon_windowsserver_globe.gif" width="120" class="m0auto">
+                        <p class="mt30">世界135カ国におよぶ協力関係</p>
+                    </div>
+                    <div class="clm3"><img src="images/icon_windowsserver_pyramid.gif" width="120" class="m0auto">
+                        <p class="mt30">膨大なテストを経たHPEのマイクロソフトソリューションのリファレンスアーキテクチャー<span class="pc_hide"><br><br><br></span></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="clm2"><img src="images/icon_windowsserver_handshake.gif" width="204" class="m0auto mt100">
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="gryBdr4px mt10">
+                <div class="column25-75 cfx">
+                  <div class="clm1 mb0"> <img src="images/history_product_dl360gen10.jpg" class="hitoryProductImg"> </div>
+                  <div class="clm2 paddBlock15">
+                    <p class="bold f16 lhMin">世界標準の安心サーバー<br>
+                      HPE ProLiant Gen10サーバー</p>
+                    <p>HPE独自開発のシリコンチップHPE Integrated Lights-Out 5（iLO 5）を搭載し、サーバーセキュリティの基準を示す「世界標準の安心サーバー」。</p>
+                    <a href="/directplus_ent/server/gen10.html" role="button" class="btn btn-secondary historyLinkBtn">ご購入はこちら</a> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!--#include virtual="/directplus_ent/system/includes/dpb_totop_responsive.inc" --> 
+          
+        </div>
+        <!-- End Right contents --> 
+        
+      </div>
+    </div>
+    <!--End Contents with right navigation--> 
+    
+    <!--#include virtual="/directplus_ent/system/includes/dpb_merit_responsive.inc" -->
+    <div id="ContactUs"> 
+      <!--#include virtual="/directplus_ent/system/includes/dpb_contact_us_responsive.inc" --> 
+    </div>
+    <div class="contentBox"> 
+      <!--#include virtual="/directplus_ent/system/includes/dpb_foot_link_responsive.inc" --> 
+      <!--#include virtual="/directplus_ent/system/includes/dpb_footnote_responsive.inc" --> 
+      <!--#include virtual="/directplus_ent/system/includes/disclaimer_20181101.inc" --> 
+    </div>
+    <!-- End Sub footer --> 
+    
+  </div>
+  
+  <!-- START CaaS footer -->
+  <div id="footer"></div>
+  <!-- END CaaS footer --> 
+  
+</div>
+<!--#include virtual="/directplus_ent/system/includes/dpb_foot_js.inc" --> 
+<script>
+var s_hp_apj_pageName = "hpe directplus 06windowsserver 25ofproliant";
+</script> 
+
+<!--#include virtual="/directplus_ent/include/n_dp_default.txt" -->
+</body>
+</html>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_イヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" width="474.69" height="406.23" viewBox="0 0 474.69 406.23">
+  <g>
+    <line x1="196.58" y1="243.33" x2="196.58" y2="310.78" style="fill: none; stroke: #000; stroke-miterlimit: 10; stroke-width: 6px;"/>
+    <polygon points="187.6 308.16 196.58 323.7 205.55 308.16 187.6 308.16"/>
+  </g>
+  <g>
+    <polyline points="97.26 354.17 58.46 354.17 58.46 58.25 97.26 58.25" style="fill: #fff;"/>
+    <g>
+      <polyline points="84.34 354.17 58.46 354.17 58.46 58.25 84.34 58.25" style="fill: none; stroke: #000; stroke-miterlimit: 10; stroke-width: 6px;"/>
+      <polygon points="81.71 345.19 97.26 354.17 81.71 363.14 81.71 345.19"/>
+      <polygon points="81.71 67.23 97.26 58.25 81.71 49.28 81.71 67.23"/>
+    </g>
+  </g>
+  <g>
+    <polyline points="328.06 379.18 384.94 379.18 384.94 33.8 315.14 33.8" style="fill: none; stroke: #000; stroke-miterlimit: 10; stroke-width: 6px;"/>
+    <polygon points="330.69 388.15 315.14 379.18 330.69 370.2 330.69 388.15"/>
+  </g>
+  <g>
+    <line x1="196.58" y1="84.44" x2="196.58" y2="151.88" style="fill: none; stroke: #000; stroke-miterlimit: 10; stroke-width: 6px;"/>
+    <polygon points="187.6 149.26 196.58 164.8 205.55 149.26 187.6 149.26"/>
+  </g>
+  <g>
+    <text transform="translate(114.82 201.26)" style="font-weight: bold; font-size: 18px;"><tspan x="20" y="0">HPE DirectPlus</tspan><tspan x="30" y="20">コールセンター</tspan></text>
+    <rect x="100.03" y="167.7" width="211.45" height="73.52" style="fill: none; stroke: #7630ea; stroke-miterlimit: 10; stroke-width: 6px;"/>
+  </g>
+  <g>
+    <text transform="translate(169.75 54.06)" style="font-weight: bold; font-size: 24px;"><tspan x="0" y="0">お客様</tspan></text>
+    <rect x="100.03" y="9.26" width="211.45" height="73.52" style="fill: none; stroke: #ff8300; stroke-miterlimit: 10; stroke-width: 6px;"/>
+  </g>
+  <g>
+    <text transform="translate(166.31 349.92)" style="font-weight: bold; font-size: 16px;"><tspan x="13" y="0">日本HP</tspan><tspan x="-20" y="20">ファイナンシャル</tspan><tspan x="8" y="38">サービス</tspan></text>
+    <rect x="100.03" y="326.14" width="211.45" height="73.52" style="fill: none; stroke: #0d5265; stroke-miterlimit: 10; stroke-width: 6px;"/>
+  </g>
+  <g>
+    <rect x="141.63" y="105.4" width="109.89" height="24.44" style="fill: #fff;"/>
+    <text transform="translate(143.91 124.08)" style="font-size: 17px;"><tspan x="0" y="0">1.製品ご選択</tspan></text>
+  </g>
+  <g>
+    <rect x="3.51" y="129.84" width="109.89" height="24.44" style="fill: #fff;"/>
+    <text transform="translate(5.79 148.52)" style="font-size: 17px;"><tspan x="0" y="0">3.ご契約締結</tspan></text>
+  </g>
+  <g>
+    <rect x="293.89" y="264.29" width="182.7" height="24.44" style="fill: #fff;"/>
+    <text transform="translate(298.57 282.98)" style="font-size: 17px;"><tspan x="0" y="0">4.サブスク料お支払い</tspan></text>
+  </g>
+  <g>
+    <rect x="150.78" y="255.03" width="91.6" height="42.96" style="fill: #fff;"/>
+    <text transform="translate(160.91 273.92)" style="font-size: 17px;"><tspan x="0" y="-2">2.お客様</tspan><tspan x="-6.83" y="19">情報の連携</tspan></text>
+  </g>
+</svg>

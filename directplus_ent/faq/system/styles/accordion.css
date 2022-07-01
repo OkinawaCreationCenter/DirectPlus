@@ -1,0 +1,67 @@
+
+/* ============================================================ accordion menu */
+
+dl.accordion_faq {
+	width:980px;
+	padding:0;
+	margin-bottom: 30px;
+}
+
+dl.accordion_faq dt {
+	width:930px;
+	height:60px;
+	padding:0 0 0 50px;
+	background:url('../../images/bg_grd.gif');
+	background-repeat: no-repeat;
+	font-size:15px;
+	letter-spacing: 1px;
+	line-height:1.2;
+	color:#007DBA;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+dl.accordion_faq dt span {
+	background-image:url('../../images/plus.gif');
+}
+
+dl.accordion_faq dt.open span {
+	background-image:url('../../images/minus.gif');
+}
+
+dl.accordion_faq dt span {
+	display: block;
+	background-repeat: no-repeat;
+	background-position:99% 50%;
+	padding:15px 30px 0 0;
+	height:35px;
+	font-size:15px;
+	line-height:1.2;
+	color:#007DBA;
+	font-weight:bold;
+}
+
+dl.accordion_faq dd {
+	width:938px;
+	display:none;
+	margin:0 0 30px 0;
+	background:#FFF;
+	padding:20px 20px 30px;
+	line-height:1.5;
+	border:solid 1px #CCC;
+	background-repeat: no-repeat;
+	background-position:10px 10px;
+}
+
+.faqTitle {
+	background-color: #0096d6;
+	background-image: url("/directplus_ent/system/common_img/bgcolor_0096d6.gif");
+	color: #ffffff;
+	font-size: 14px;
+	letter-spacing: 0.1em;
+	font-weight: bold;
+	line-height: 23px;
+	margin: 0 0 10px;
+	padding: 4px 10px 5px;
+}
+

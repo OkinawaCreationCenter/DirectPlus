@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<!--#include virtual="/directplus_ent/system/includes/dpb_lang.inc" -->
+<head>
+	<!--#include virtual="/directplus_ent/system/includes/dpb_meta_charset_responsive.inc" -->
+	<title>HPE ProLiant サーバーの歴史 | <!--#include virtual="/comm/include/directplus_name.inc" --> オンラインストア<!--#include virtual="/comm/include/company_name_title_utf8.inc" --></title>
+	<meta name="keywords" content="proliant, hpe proliant, proliant 25周年, サーバーの歴史, proliantの歴史, hpe, ヒューレット・パッカード"/>
+	<meta name="description" content="誰もやらなかった「業界標準」を始めた。その瞬間から、変革が始まった─　HPE ProLiantの歴史を紹介します。"/>
+	
+	<meta name="bu" content="tsg">
+	<meta name="sub_bu" content="TSG.Servers">
+	<meta name="lifecycle" content="presales.selection"/>
+	<meta name="segment" content="Commercial.Large">
+	<meta name="company_code" content="hpe">
+	<meta name="target_country" content="jp">
+	<meta name="web_section_id" content="R11974">
+	<meta name="hp_design_version" content="hpexpnontridion">
+	<meta name="user_profile" content="Commercial">
+	<meta name="page_content" content="Products">
+	<meta name="robots" content="index,follow,noarchive">
+	<meta name="date" content="2018-11-01">
+
+	<!--#include virtual="/directplus_ent/system/includes/dpb_meta_responsive.inc" -->
+	
+	<!--#include virtual="/directplus_ent/system/includes/dpb_caas-header-footer_responsive.inc" -->
+<style>
+.historyTwoColumn {
+	width:100%;
+	position:relative;
+}
+.historyTwoColumn > .clm1,
+.historyTwoColumn > .clm2 {
+	float:left;
+	width:50%;
+	height:100%;
+	min-height:200px;
+}
+.historyTwoColumn.noIcon > .clm1,
+.historyTwoColumn.noIcon > .clm2 {
+	min-height:140px;
+}
+@media only screen and (max-width:999px){
+	.historyTwoColumn > .clm1 {
+		width:35%;
+	}
+	.historyTwoColumn > .clm2 {
+		width:65%;
+	}
+}
+.historyTwoColumn > .clm1 {
+	position:relative;
+}
+@media only screen and (max-width:999px){
+	.historyTwoColumn > .clm1:before {
+		content:"";
+		display:block;
+		width:20%;
+		border-bottom:1px solid #000;
+		position:absolute;
+		left:75%;
+		top:25px;
+		z-index:300;
+	}
+	.historyTwoColumn.noIcon > .clm1:before {
+		width:30%;
+		left:65%;
+		top:20px;
+	}
+}
+.historyTwoColumn:before {
+	content:"";
+	display:block;
+	width:5px;
+	height:100%;
+	background-color:#CCC;
+	position:absolute;
+	left:25%;
+	margin-left:-2.5px;
+	z-index:100;
+}
+.historyTwoColumn.icon10:before {
+	display:none;
+}
+@media only screen and (max-width:999px){
+	.historyTwoColumn:before {
+		left:17.5%;
+		width:2.5px;
+		margin-left:-1.25px;
+	}
+}
+.historyTwoColumn > .clm1 .historyIcon {
+	display:block;
+	width:100px;
+	height:100px;
+	background-size:100px;
+	position:absolute;
+	left:50%;
+	margin-left:-50px;
+	top:0;
+	margin-top:0;
+	z-index:200;
+}
+@media only screen and (max-width:999px){
+	.historyTwoColumn > .clm1 .historyIcon {
+		width:50px;
+		height:50px;
+		background-size:50px;
+		margin-left:-25px;
+		margin-top:0;
+		position:relative;
+	}
+}
+.historyTwoColumn.icon01 > .clm1 .historyIcon {
+	width:145px;
+	height:145px;
+	background-image:URL(images/history_icon_01.gif);
+	background-size:145px;
+	position:absolute;
+	margin-left:-72.5px;
+	margin-top:-22.5px;
+}
+@media only screen and (max-width:999px){
+	.historyTwoColumn.icon01 > .clm1 .historyIcon {
+		width:72.5px;
+		height:72.5px;
+		background-size:72.5px;
+		margin-left:-36.25px;
+		margin-top:-11.25px;
+	}
+}
+.historyTwoColumn.icon02 > .clm1 .historyIcon {
+	background-image:URL(images/history_icon_02.gif);
+}
+.historyTwoColumn.icon03 > .clm1 .historyIcon {
+	background-image:URL(images/history_icon_03.gif);
+}
+.historyTwoColumn.icon04 > .clm1 .historyIcon {
+	background-image:URL(images/history_icon_04.gif);
+}
+.historyTwoColumn.icon05 > .clm1 .historyIcon {
+	background-image:URL(images/history_icon_05.gif);
+}
+.historyTwoColumn.icon06 > .clm1 .historyIcon {
+	background-image:URL(images/history_icon_06.gif);
+}
+.historyTwoColumn.icon07 > .clm1 .historyIcon {
+	background-image:URL(images/history_icon_07.gif);
+}
+.historyTwoColumn.icon08 > .clm1 .historyIcon {
+	background-image:URL(images/history_icon_08.gif);
+}
+.historyTwoColumn.icon09 > .clm1 .historyIcon {
+	background-image:URL(images/history_icon_09.gif);
+}
+.historyTwoColumn.icon10 > .clm1 .historyIcon {
+	background-image:URL(images/history_icon_10.gif);
+}
+.historyTwoColumn.noIcon > .clm1 .historyIcon {
+	width:40px;
+	height:40px;
+	background-color:#CCC;
+	margin-top:0;
+	margin-left:-20px;
+	border-radius:20px;
+	position:relative;
+}
+@media only screen and (max-width:999px){
+	.historyTwoColumn.noIcon > .clm1 .historyIcon {
+		width:20px;
+		height:20px;
+		margin-top:10px;
+		margin-left:-10px;
+		border-radius:10px;
+	}
+}
+.historyTwoColumn.noIcon > .clm1 .historyIcon:after {
+	content:"";
+	display:block;
+	width:200px;
+	border-bottom:1px solid #000;
+	position:absolute;
+	top:20px;
+	left:55px;
+}
+@media only screen and (max-width:999px){
+	.historyTwoColumn.noIcon > .clm1 .historyIcon:after {
+		display:none;
+	}
+}
+.historyTwoColumn > .clm1 .historyYear {
+	font-size:24px;
+	font-weight:bold;
+	position:absolute;
+	top:30px;
+	right:100px;
+	margin-top:0;
+	z-index:300;
+}
+.historyTwoColumn .clm2 .historyYear {
+	display:none;
+	font-weight:bold;
+	font-size:20px;
+}
+.historyTwoColumn > .clm1 .historyYear:after {
+	content:"";
+	display:block;
+	width:70px;
+	border-bottom:1px solid #000;
+	position:absolute;
+	left:104px;
+	margin-top:-25px;
+}
+@media only screen and (max-width:999px){
+	.historyTwoColumn > .clm1 .historyYear {
+		display:none;
+	}
+	.historyTwoColumn > .clm2 .historyYear {
+		display:inline;
+	}
+}
+.historyTwoColumn > .clm2 .historyTxt {
+	margin-top:35px;
+}
+.historyTwoColumn.noIcon > .clm2 .historyTxt {
+	margin-top:5px;
+}
+@media only screen and (max-width:999px){
+	.historyTwoColumn > .clm2 .historyTxt {
+		margin-top:10px;
+		margin-bottom:30px;
+	}
+}
+.hitoryProductImg {
+	width:225px;
+	margin:0 auto;
+}
+
+@media only screen and (max-width:767px){
+	.hitoryProductImg {
+		width:90%;
+	}
+	.historyLinkBtn {
+		min-width:180px;
+	}
+}
+.historyImage01 {
+	margin-top: 0;
+	margin-left: 50px;
+}
+.historyImage02 {
+	margin-top: 100px;
+	margin-left: 20px;
+}
+.historyImage03 {
+	margin-top: 100px;
+	margin-left: 80px;
+}
+.historyImage04 {
+	position: absolute;
+	top: -30px;
+	left: 30px;
+}
+.historyImage05 {
+	margin-top: 100px;
+	margin-left: 65px;
+}
+.historyImage06 {
+	margin-top: -100px;
+	margin-left: 40px;
+	margin-bottom:10px;
+}
+.historyImage07 {
+	margin-top:80px;
+	margin-left:125px;
+	margin-bottom:10px;
+}
+.historyImage08 {
+	position: absolute;
+	top:-15px;
+}
+.historyImage09 {
+	margin-top:-15px;
+}
+@media only screen and (max-width:999px){
+	.historyImage01 {
+		width:30%;
+		margin-top: 50px;
+		margin-left: 5%;
+	}
+	.historyImage02 {
+		width:70%;
+		margin-top: 50px;
+		margin-left: 5%;
+	}
+	.historyImage03 {
+		width:90%;
+		margin-top: 50px;
+		margin-left: 5%;
+	}
+	.historyImage04 {
+		width:30%;
+		top: 30px;
+		left: 0;
+	}
+	.historyImage05 {
+		width: 95%;
+		margin-left: 0;
+		margin-top: 40px;	
+	}
+	.historyImage06 {
+		width: 90%;
+		margin-left: 0;
+		margin-top: -30px;
+	}
+	.historyImage07 {
+		width: 95%;
+		margin-left: 0;
+		margin-top: 40px;
+	}
+	.historyImage08 {
+		width: 95%;
+		position: initial;
+		margin-top: 30px;
+	}
+	.historyImage09 {
+		width:70%;
+		margin-top:0;
+	}
+</style>
+</head>
+<body>
+<div id="page" class="page cal">
+	<!--#include virtual="/directplus_ent/system/includes/dpb_totop_target_responsive.inc" -->
+	<!-- START CaaS header -->
+	<div id="header"></div>
+	<!-- END CaaS header -->
+	
+	<div id="content" class="content">
+	
+		<!--#include virtual="/directplus_ent/system/includes/dpb_sub_header_responsive.inc" -->
+		
+		<!--#include virtual="/directplus_ent/system/includes/dpb_sub_navigation_responsive.inc" -->
+		
+		<div class="bgGry mb40">
+			<div class="contentBox">
+				<div class="breadcrumb">
+					<ul>
+						<li><a href="/directplus_ent/">TOP</a></li>
+						<li><a href="/directplus_ent/promotion/25years_of_proliant/">HPE ProLiantサーバーのイノベーション</a></li>
+						<li>HPE ProLiant サーバーの歴史</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="contentBox">
+			
+			<div class="content1000px">
+				<div class="rightCnt">
+					<h2 class="mb20">
+						<span class="f28 bold">誰もやらなかった「業界標準」を始めた。その瞬間から、変革が始まった。</span><br>
+						<span class="f20">─ Rod Canion, Compaq Computer Co-Founder</span>
+					</h2>
+					
+					<div class="mb40WithBorder">
+						
+						<div class="mb40">
+							<p>
+								1993年9月13日、世界初のx86サーバー「ProLiant」が誕生しました。最新世代の「HPE ProLiant Gen10サーバー」に至るまで、実に4000万台以上の「ProLiant」が出荷されています。<br>
+								「ProLiant」の歴史は、x86サーバーの歴史そのもの。HPEは、これからも新しいイノベーションに挑戦し、巨大なエコシステムを形成する「業界標準テクノロジー」の創造を加速させていきます。
+							</p>
+						</div>
+						
+						<div class="historyTwoColumn cfx icon01">
+							<div class="clm1">
+								<div class="historyIcon"></div>
+								<p class="historyYear">1989年</p>
+								<img src="images/history_image_01.gif" width="68" class="historyImage01">
+							</div>
+							<div class="clm2">
+								<p class="historyTxt">
+									<span class="historyYear">1989年<br></span>
+									現在のProLiantの前身である世界初のx86 サーバー「Compaq SystemPro<sup>&reg;</sup>」を発表。リバースエンジニアリングという手法によって開発に成功したIBM PC/AT互換機技術がサーバーへ展開されました。
+								</p>
+							</div>
+						</div>
+						<div class="historyTwoColumn cfx icon02">
+							<div class="clm1">
+								<div class="historyIcon"></div>
+								<p class="historyYear">1993年</p>
+								<img src="images/history_image_02.gif" width="182" class="historyImage02">
+							</div>
+							<div class="clm2">
+								<p class="historyTxt">
+									<span class="historyYear">1993年<br></span>
+									<span class="bold f16">Compaq ProLiant 4000</span><br>
+									インテル<sup>&reg;</sup> Pentium<sup>&reg;</sup> プロセッサー（66MHz）搭載。ホットプラグ対応HDDをサポートし、当時最先端の障害管理機能を備えたデータベース向け4ソケットサーバー。
+								</p>
+							</div>
+						</div>
+						<div class="historyTwoColumn cfx icon03">
+							<div class="clm1">
+								<div class="historyIcon"></div>
+								<p class="historyYear">1994年</p>
+							</div>
+							<div class="clm2">
+								<p class="historyTxt">
+									<span class="historyYear">1994年<br></span>
+									<span class="bold f16">Compaq ProLiant 4000R</span><br>
+									x86サーバー初となるラックマウント型サーバーの登場により、メールサーバーやWebサーバー、業務システムなど幅広い用途での利用を拡大。
+								</p>
+							</div>
+						</div>
+						<div class="historyTwoColumn cfx icon04">
+							<div class="clm1">
+								<div class="historyIcon"></div>
+								<p class="historyYear">2000年</p>
+								<img src="images/history_image_03.gif" width="400" class="historyImage03">
+							</div>
+							<div class="clm2">
+								<p class="historyTxt">
+									<span class="historyYear">2000年<br></span>
+									<span class="bold f16">Compaq ProLiant DL360</span><br>
+									インテル<sup>&reg;</sup> Pentium<sup>&reg;</sup> III プロセッサーを採用した、最初の1Uラックマウント型サーバー。Smartアレイコントローラー、リモートInsightボード
+Lights-Out Editionを搭載可能。
+								</p>
+							</div>
+						</div>
+						<div class="historyTwoColumn cfx noIcon">
+							<div class="clm1">
+								<div class="historyIcon"></div>
+							</div>
+							<div class="clm2">
+								<p class="historyTxt">
+									<span class="bold f16">Compaq ProLiant ML370 G2（2001年）</span><br>
+								</p>
+							</div>
+						</div>
+						<div class="historyTwoColumn cfx icon05">
+							<div class="clm1">
+								<div class="historyIcon"></div>
+								<p class="historyYear">2001年</p>
+								<img src="images/history_image_04.gif" width="90" class="historyImage04">
+							</div>
+							<div class="clm2">
+								<p class="historyTxt">
+									<span class="historyYear">2001年<br></span>
+									<span class="bold f16">Compaq ProLiant BL e-Class</span><br>
+									ブレード型サーバーという新しいフォームファクターの誕生。高さ3Uのエンクロージャーに20台のサーバーブレードを格納できる高密度設計を実現。
+								</p>
+							</div>
+						</div>
+						<div class="historyTwoColumn cfx noIcon">
+							<div class="clm1">
+								<div class="historyIcon"></div>
+							</div>
+							<div class="clm2">
+								<p class="historyTxt">
+									<span class="bold f16">HP ProLiant BL p-Class（2002年）</span><br>
+								</p>
+							</div>
+						</div>
+						<div class="historyTwoColumn cfx icon06">
+							<div class="clm1">
+								<div class="historyIcon"></div>
+								<p class="historyYear">2003年</p>
+							</div>
+							<div class="clm2">
+								<p class="historyTxt">
+									<span class="historyYear">2003年<br></span>
+									<span class="bold f16">HP ProLiant DL145</span><br>
+									x86ベースの64ビット拡張というアーキテクチャーを採用した「AMD Opteron&trade; プロセッサー」を初搭載。高性能な1U/2ソケットサーバーとして好評を博す。
+								</p>
+							</div>
+						</div>
+						<div class="historyTwoColumn cfx icon07">
+							<div class="clm1">
+								<div class="historyIcon"></div>
+								<p class="historyYear">2005年</p>
+								<img src="images/history_image_05.gif" width="430" class="historyImage05">
+							</div>
+							<div class="clm2">
+								<p class="historyTxt">
+									<span class="historyYear">2005年<br></span>
+									<span class="bold f16">HP ProLiant DL380 G3</span><br>
+									管理プロセッサーHP Integrated Lights-Out（ iLO）を標準搭載し、オンラインスペアメモリ機能、冗長化電源、ホットプラグ対応PCI-Xスロットなど管理性と信頼性を向上。
+								</p>
+							</div>
+						</div>
+						<div class="historyTwoColumn cfx noIcon">
+							<div class="clm1">
+								<div class="historyIcon"></div>
+							</div>
+							<div class="clm2">
+								<p class="historyTxt">
+									<span class="bold f16">HP BladeSystem c-Class（2006年）</span><br>
+								</p>
+							</div>
+						</div>
+						<div class="historyTwoColumn cfx noIcon">
+							<div class="clm1">
+								<div class="historyIcon"></div>
+								<img src="images/history_image_06.gif" width="400" class="historyImage06">
+							</div>
+							<div class="clm2">
+								<p class="historyTxt">
+									<span class="bold f16">HP ProLiant SL6000 Scalable System（2009年）</span><br>
+								</p>
+							</div>
+						</div>
+						<div class="historyTwoColumn cfx icon08">
+							<div class="clm1">
+								<div class="historyIcon"></div>
+								<p class="historyYear">2010年</p>
+								<img src="images/history_image_07.gif" width="370" class="historyImage07">
+							</div>
+							<div class="clm2">
+								<p class="historyTxt">
+									<span class="historyYear">2010年<br></span>
+									<span class="bold f16">HP ProLiant Micro Server</span><br>
+									ProLiant の中で最もコンパクトなサーバーを発表。低消費電力のAMD Turion&trade; II NEO プロセッサーを採用し、わずか267×21×26（cm）という省スペース筐体を実現。
+								</p>
+							</div>
+						</div>
+						<div class="historyTwoColumn cfx icon09">
+							<div class="clm1">
+								<div class="historyIcon"></div>
+								<p class="historyYear">2012年</p>
+							</div>
+							<div class="clm2">
+								<p class="historyTxt">
+									<span class="historyYear">2012年<br></span>
+									<span class="bold f16">HP ProLiant DL380p Gen8</span><br>
+									新開発の「HP Integrated Lights-Out 4（iLO 4）」による自動セットアップ、エージェントレス管理、アクティブヘルスシステム、自動通報などの多くの機能を実装した“自働サーバー”。
+								</p>
+							</div>
+						</div>
+						<div class="historyTwoColumn cfx noIcon">
+							<div class="clm1">
+								<div class="historyIcon"></div>
+								<img src="images/history_image_08.gif" width="470" class="historyImage08">
+							</div>
+							<div class="clm2">
+								<p class="historyTxt">
+									<span class="bold f16">HP Moonshot System（2013年）</span><br>
+								</p>
+							</div>
+						</div>
+						<div class="historyTwoColumn cfx noIcon">
+							<div class="clm1">
+								<div class="historyIcon"></div>
+							</div>
+							<div class="clm2">
+								<p class="historyTxt">
+									<span class="bold f16">HPE Synergy（2016年）</span><br>
+								</p>
+							</div>
+						</div>
+						<div class="historyTwoColumn cfx icon10">
+							<div class="clm1">
+								<div class="historyIcon"></div>
+								<p class="historyYear">2017年</p>
+								<img src="images/history_image_09.gif" width="190" class="historyImage09">
+							</div>
+							<div class="clm2">
+								<!--div class="historyTxt column50-50 cfx">
+									<div class="clm1">
+										<p class="mb5">
+											<span class="historyYear">2017年<br></span>
+											<span class="bold f16">HPE ProLiant Gen10</span><br>
+											HPE独自開発のシリコンチップHPE Integrated Lights-Out 5（iLO 5）を搭載し、サーバーセキュリティの基準を示す「世界標準の安心サーバー」。
+										</p>
+										<a href="/directplus_ent/server/"><span class="cta-link"><em class="icon-arrow-circle-right"></em>Gen10サーバーのご購入はこちら</span></a>
+									</div>
+									<div class="clm2">
+										<img src="images/history_product_dl360gen10.jpg" class="hitoryProductImg">
+									</div>
+								</div-->
+								<p class="historyTxt mb10">
+									<span class="historyYear">2017年<br></span>
+									<span class="bold f16">HPE ProLiant Gen10</span><br>
+									HPE独自開発のシリコンチップHPE Integrated Lights-Out 5（iLO 5）を搭載し、サーバーセキュリティの基準を示す「世界標準の安心サーバー」。
+								</p>
+								<div class="gryBdr4px">
+									<div class="column50-50 cfx">
+										<div class="clm1 mb0">
+											<img src="images/history_product_dl360gen10.jpg" class="hitoryProductImg">
+										</div>
+										<div class="clm2 paddBlock15 alignCtr">
+											<p class="bold f16 lhMin">世界標準の安心サーバー</p>
+											<p>Gen10サーバー</p>
+											<a href="/directplus_ent/server/gen10.html" role="button" class="btn btn-secondary historyLinkBtn">ご購入はこちら</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+					
+					
+					<!--#include virtual="/directplus_ent/system/includes/dpb_totop_responsive.inc" -->
+					
+				</div><!-- End Right contents -->
+
+			</div>
+		</div><!--End Contents with right navigation-->
+		
+		<!--#include virtual="/directplus_ent/system/includes/dpb_merit_responsive.inc" -->
+		<div id="ContactUs">
+		<!--#include virtual="/directplus_ent/system/includes/dpb_contact_us_responsive.inc" -->
+		</div>
+		
+		<div class="contentBox">
+			<!--#include virtual="/directplus_ent/system/includes/dpb_foot_link_responsive.inc" -->
+			<!--#include virtual="/directplus_ent/system/includes/dpb_footnote_responsive.inc" -->
+			<!--#include virtual="/directplus_ent/system/includes/disclaimer_20181101.inc" -->
+		</div><!-- End Sub footer -->
+		
+	</div>
+	
+	<!-- START CaaS footer -->
+	<div id="footer"></div>
+	<!-- END CaaS footer -->
+	
+</div>
+<!--#include virtual="/directplus_ent/system/includes/dpb_foot_js.inc" -->
+<script>
+var s_hp_apj_pageName = "hpe directplus 01history 25ofproliant";
+</script>
+
+<!--#include virtual="/directplus_ent/include/n_dp_default.txt" -->
+</body>
+</html>

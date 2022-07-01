@@ -1,0 +1,9 @@
+<table width="740" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="170" align="center" valign="middle"><br><a href="https://www.hpe.com/jp" target="_blank"><img src="/comm/images/hpc60_topnav_hp_logo.gif" width="63" height="53" alt="HPEƒz[ƒ€" border="0"></a></td>
+<td width="10"><img src="/comm/images/s.gif" width="10" height="93" alt=""></td>
+<td width="370" valign="middle"><a href="https://onlinestore-japan.hpe.com/is-bin/INTERSHOP.enfinity/WFS/Directplus-Advantage-Site/ja_JP/-/JPY/StorefrontForAdvantage-Start"><img src="/directplus_ent/jeprime/images/dp_logo.gif" alt="HP J-ePrime" width="215" height="38" border="0"></a></td>
+<td width="10"><img src="/comm/images/s.gif" width="10" height="1" alt=""></td>
+<td width="180"><img src="/comm/images/s.gif" width="180" height="1" alt=""></td>
+</tr>
+</table>

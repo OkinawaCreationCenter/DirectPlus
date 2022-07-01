@@ -1,0 +1,406 @@
+
+#sub_footer {
+	width:100%;
+	margin:0;
+	padding:0;
+	clear: both;
+}
+#sub_footer p{
+	margin:0;
+	padding:0;
+}
+
+#sub_footer .arlk_area1 {
+	overflow: hidden;
+	margin:30px 0 10px;
+}
+.arlk_area2 {
+	overflow: hidden;
+	margin:0px;
+	border-bottom:1px #CCCCCC solid;
+	padding-bottom:10px;
+}
+.arlk_area3 {
+	text-align: center;
+	margin-bottom: 20px;
+	letter-spacing:1px;
+	line-height: 23px;
+}
+
+.arlk_txt {
+	float:left;
+	width:65%;
+}
+.arlk_txt h3{
+	font-size: 20px;
+	font-weight: bold;
+	line-height:23px;
+}
+#sub_footer .float_r {
+	float: right;
+}
+
+#sub_footer .txtinfo_area {
+	margin: 30px 0px;
+}
+#sub_footer .txtinfo_area p{
+	color:#999999;
+	font-size: 9.5px;
+	line-height:13px;
+	letter-spacing:1px;
+	margin-bottom: 10px;
+	margin-left:1.5em;
+	text-indent:-1.8em;
+}
+
+#sub_footer .bg0096D6_box .txt15{
+	color:#FFFFFF;
+	font-size: 15px;
+	line-height:20px;
+}
+#sub_footer .bg0096D6_box .txt10{
+	color:#FFFFFF;
+	font-size: 10px;
+	line-height:16px;
+	margin-top: 5px;
+}
+
+#sub_footer .bg0096D6_box{
+	margin:0 auto 20px;
+	background-color:#0096D6;
+	padding:10px;
+	color:#FFFFFF;
+}
+
+
+#sub_footer .columns_box{
+	overflow: hidden;
+	width: 100%; margin:0 auto;
+}
+#sub_footer .columns_box h3{
+	font-size: 18px;
+	font-weight: bold;
+	line-height:21px;
+	text-align: center;
+}
+#sub_footer .box_center{
+	margin: 10px auto;
+	text-align: center;
+}
+
+#sub_footer .columns_box301{
+	float:left; width:30%;
+	padding:10px 11px;
+}
+#sub_footer .columns_box302{
+	float:left;
+	width:31%;
+	padding:10px 12px;
+	border-left:1px #FFFFFF solid;
+	border-right:1px #FFFFFF solid;
+}
+#sub_footer .columns_box303{
+	float:left; width:30%;
+	padding:10px 11px;
+}
+
+
+
+#sub_footer .columns_box5{
+	float:left;
+	width:18%;
+	padding:0 10px;
+}
+
+#sub_footer .columns_box5 p{
+	text-align: center;
+	font-size:17px;
+	font-weight:bold;
+	text-decoration: none;
+	margin:10px 0;
+}
+
+#sub_footer .columns_box4{
+	float:left;
+	width:22%;
+	padding:10px 10px;
+}
+
+#sub_footer .columns_box4 p{
+	text-align: center;
+	font-size:17px;
+	font-weight:bold;
+	text-decoration: none;
+	margin:10px 0;
+}
+
+
+#sub_footer .columns_box7 {
+	float:left;
+	width:12%;
+	padding:10px 8px;
+}
+#sub_footer .columns_box7 p{
+	text-align: center;
+	font-size:14px;
+	font-weight:bold;
+	line-height:19px;
+	text-decoration: none;
+	margin:10px 0;
+}
+
+#sub_footer .lineup_box{
+	margin:0 auto 10px;
+	padding:10px 0;
+}
+
+
+
+
+
+#sub_footer .bgF2F2F2_box{
+	margin:0 auto 20px;
+	background-color:#F2F2F2;
+	padding: 20px;
+}
+#sub_footer .bgF2F2F2_box h2{
+	font-size:19px;
+	font-weight: bold;
+}
+
+#sub_footer .bgF2F2F2_box .info_time {
+	margin:10px 0;
+	line-height: 17px;
+}
+
+#sub_footer .bgF2F2F2_box .bizinfo_time {
+	margin:20px 0 10px;
+	line-height: 17px;
+}
+
+/*201506*/
+
+#sub_footer .bgF2F2F2_box2{
+	margin:0 auto 20px;
+	background-color:#F2F2F2;
+	padding: 20px;
+}
+#sub_footer .bgF2F2F2_box2 h2{
+	border-bottom: 1px #999 solid;
+	font-size: 25px;
+	font-weight: normal ! important;
+	text-align: center;
+	padding-bottom:5px;
+}
+
+#sub_footer .bgF2F2F2_box2 .info_time {
+	margin:10px 0;
+	line-height: 17px;
+}
+
+#sub_footer .bgF2F2F2_box2 .bizinfo_time {
+	margin:20px 0 10px;
+	line-height: 17px;
+}
+
+
+
+
+#sub_footer .inquiry_telbox{
+	width:100%;
+	overflow:hidden;
+	margin:15px 0 10px;
+	padding: 0;
+	letter-spacing:1px;
+}
+
+#sub_footer .inquiry_telbox2{
+	width:100%;
+	overflow:hidden;
+	margin:5px 0 0;
+	padding: 0;
+	letter-spacing:1px;
+}
+
+#sub_footer .inquiry_telbox_bt{
+	width:100%;
+	overflow:hidden;
+	margin:15px 0 0;
+	padding: 15px 0 0;
+	border-top:1px #CCCCCC solid;
+	letter-spacing:1px;
+}
+
+#sub_footer .txt19bk {
+	font-size:19px;
+	font-weight: bold;
+	line-height:1.5;
+}
+
+#sub_footer .txt15bk {
+	font-size:15px;
+	font-weight: bold;
+	line-height:17px;
+}
+#sub_footer .txt12bk {
+	font-size:12px;
+	font-weight: bold;
+	line-height:14px;
+}
+
+#sub_footer .biz_inq {
+	margin:0 0 15px 15px;
+}
+
+#sub_footer .inquiry_tel_big{
+	/*color:#0096D6;*/
+	color:#614767;  /*add to 20151221*/
+	font-size:33px;
+	font-weight:bold;
+	line-height:35px;
+	margin:5px 0;
+}
+#sub_footer .inquiry_tel_m27{
+	/*color:#0096D6;*/
+	color:#614767;  /*add to 20151221*/
+	font-size:25px;
+	font-weight:bold;
+	line-height:27px;
+	margin:5px 0;
+}
+#sub_footer .inquiry_tel_s13 {
+	/*color:#0096D6;*/
+	color:#614767;  /*add to 20151221*/
+	font-size:13px;
+	font-weight:bold;
+	lien-height:15px;
+	letter-spacing:1px;
+}
+
+
+
+#sub_footer .f_left32{
+	float: left;
+	width: 32%;
+}
+#sub_footer .f_left37{
+	float: left;
+	width: 37%;
+}
+#sub_footer .f_left46{
+	float: left;
+	width: 46%;
+}
+#sub_footer .f_right50{
+	float: right;
+	width: 50%;
+}
+#sub_footer .f_right60{
+	float: right;
+	width: 60%;
+}
+#sub_footer .f_right65{
+	float: Right;
+	width: 65%;
+}
+
+
+#sub_footer .col_supportbox{
+	overflow: hidden;
+	width: 100%; margin:0 auto;
+}
+
+#sub_footer .col_supportbox01{
+	background-color: #FFFFFF;
+	border: 1px #CCCCCC solid;
+	float:left; width:30%;
+	padding:8px;
+}
+#sub_footer .col_supportbox02{
+	background-color: #FFFFFF;
+	border: 1px #CCCCCC solid;
+	float:left; width:30%;
+	padding:8px;
+	margin-left: 10px;
+}
+#sub_footer .col_supportbox03{
+	background-color: #FFFFFF;
+	border: 1px #CCCCCC solid;
+	float:left; width:30%;
+	padding:8px;
+	margin-left: 10px;
+}
+
+
+/*201506*/
+
+#sub_footer .col_supportboxFour{
+	border:1px #0096d6 solid;
+	background-color:#FFFFFF;
+	color:#0096d6;
+	margin:0 auto;
+	overflow: hidden;
+	padding: 10px;
+	text-align: center;
+	width:938px;
+}
+
+#sub_footer .col_supportboxFour_c1{
+	float:left;
+	width:227px;
+	color:#FFFFFF;
+}
+
+#sub_footer .col_supportboxFour_c2{
+	float:left;
+	height: 150px;
+	padding:0 5px;
+	width:226px;
+}
+
+#sub_footer .col_supportboxFour_c3{
+	border-left:1px #99CCFF solid;
+	float:left;
+	height: 150px;
+	margin-left:1px;
+	padding:0 5px;
+	width: 225px;
+}
+#sub_footer .col_supportboxFour_c4{
+	border-left:1px #99CCFF solid;
+	float:left;
+	height:150px;
+	margin-left:1px;
+	padding:0 5px;
+	width:225px;
+}
+
+.contactUsIconTel,
+.contactUsIconMail {
+	padding-left:80px;
+	position:relative;
+}
+.contactUsIconTel:before,
+.contactUsIconMail:before {
+	content:"";
+	display:block;
+	width:60px;
+	height:60px;
+	position:absolute;
+	left:0;
+	top:0;
+	background-image:url(/directplus_ent/system/images/contact_icon.png);
+	background-repeat:no-repeat;
+	-webkit-background-size: 60px auto;
+	-moz-background-size:    60px auto;
+	-ie-background-size:     60px auto;
+	-o-background-size:      60px auto;
+	background-size:         60px auto;
+}
+.contactUsIconTel:before {
+	background-position:0 0;
+}
+.contactUsIconMail:before {
+	background-position:0 -70px;
+}
+

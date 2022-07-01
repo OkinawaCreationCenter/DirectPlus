@@ -1,0 +1,105 @@
+<td width="170" align="left" valign="top" background="/directplus_ent/images/hpc60_leftnav_background.gif">
+<table border="0" cellpadding="10" cellspacing="0" width="170" background="/directplus_ent/images/s.gif">
+<tr>
+<td align="left" valign="middle" bgcolor="#FFCC66" class="color003366">
+<table width="150" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="10" valign="top"><h2><span class="linkarrow">≫</span></h2></td>
+<td width="140"><h2><a href="https://onlinestore-japan.hpe.com/is-bin/INTERSHOP.enfinity/WFS/Directplus-Advantage-Site/ja_JP/-/JPY/StorefrontForAdvantage-Start" class="lftnavhdr">HP J-ePrimeホーム</a></h2></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+				 
+<table border="0" cellpadding="0" cellspacing="0" width="170" background="/directplus_ent/images/s.gif">
+<tr class="decoration">
+<td align="left" width="170"><img src="/directplus_ent/images/s.gif" width="170" height="10" alt=""></td>
+</tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="170" background="/directplus_ent/images/s.gif">
+<tr>
+<td align="left" width="10"><img src="/directplus_ent/images/s.gif" width="10" height="10" alt=""></td>
+<td align="left" width="150">
+<h3><b>製品/サービスなど詳しい情報はこちらから</b></h3>
+</td>
+<td align="left" width="10"><img src="/directplus_ent/images/s.gif" width="10" height="10" alt=""></td>
+</tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="170" background="/directplus_ent/images/s.gif">
+<tr class="decoration">
+<td align="left" width="170"><img src="/directplus_ent/images/s.gif" width="170" height="10" alt=""></td>
+</tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="170" background="/directplus_ent/images/s.gif">
+<tr>
+<td align="left" width="20"><img src="/directplus_ent/images/s.gif" width="20" height="10" alt=""></td>
+<td align="left" valign="top" width="10" class="color003366"><span class="linkarrow">≫</span></td>
+<td align="left" width="130"><a href="/doc/catalog/" target="_blank">カタログライブラリ</a></td>
+<td align="left" width="10"><img src="/directplus_ent/images/s.gif" width="10" height="10" alt=""></td>
+</tr>
+<tr>
+<td align="left" width="20"><img src="/directplus_ent/images/s.gif" width="20" height="10" alt=""></td>
+<td align="left" valign="top" width="10" class="color003366"><span class="linkarrow">≫</span></td>
+<td align="left" width="130"><a href="https://www.hpe.com/support/hpesc" target="_blank">製品別サポート情報</a></td>
+<td align="left" width="10"><img src="/directplus_ent/images/s.gif" width="10" height="10" alt=""></td>
+</tr>
+<tr>
+<td align="left" width="20"><img src="/directplus_ent/images/s.gif" width="20" height="10" alt=""></td>
+<td align="left" valign="top" width="10" class="color003366"><span class="linkarrow">≫</span></td>
+<td align="left" width="130"><a href="/directplus_ent/jeprime/faq/index.html">よくいただくご質問（FAQ）</a></td>
+<td align="left" width="10"><img src="/directplus_ent/images/s.gif" width="10" height="10" alt=""></td>
+</tr>
+<tr>
+<td align="left" width="20"><img src="/directplus_ent/images/s.gif" width="20" height="10" alt=""></td>
+<td align="left" valign="top" width="10" class="color003366"><span class="linkarrow">≫</span></td>
+<td align="left" width="130"><a href="/directplus_ent/jeprime/howto/index.html">ご利用方法</a></td>
+<td align="left" width="10"><img src="/directplus_ent/images/s.gif" width="10" height="10" alt=""></td>
+</tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="170" background="/directplus_ent/images/s.gif">
+<tr class="decoration">
+<td align="left" width="170"><img src="/directplus_ent/images/s.gif" width="170" height="10" alt=""></td>
+</tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="170" background="/directplus_ent/images/s.gif">
+<tr class="decoration">
+<td align="left" width="10"><img src="/directplus_ent/images/s.gif" width="10" height="1" alt=""></td>
+<td align="left" valign="top" width="150" bgcolor="#CCCCCC"><img src="/directplus_ent/images/s.gif" width="150" height="1" alt=""></td>
+<td align="left" width="10"><img src="/directplus_ent/images/s.gif" width="10" height="1" alt=""></td>
+</tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="170" background="/directplus_ent/images/s.gif">
+<tr class="decoration">
+<td align="left" width="170"><img src="/directplus_ent/images/s.gif" width="170" height="10" alt=""></td>
+</tr>
+</table>
+
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="170" background="/directplus_ent/images/s.gif">
+<tr>
+<td align="left" width="20"><img src="/directplus_ent/images/s.gif" width="20" height="10" alt=""></td>
+<td align="left" valign="top" width="10" class="color003366"><span class="linkarrow">≫</span></td>
+<td align="left" width="130"><a href="/directplus_ent/jeprime/sitemap/index.html">サイトマップ</a></td>
+<td align="left" width="10"><img src="/directplus_ent/images/s.gif" width="10" height="10" alt=""></td>
+</tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="170" background="/directplus_ent/images/s.gif">
+<tr class="decoration">
+<td align="left" width="170"><img src="/directplus_ent/images/s.gif" width="170" height="10" alt=""></td>
+</tr>
+</table>
+
+
+
+
+
+</td>

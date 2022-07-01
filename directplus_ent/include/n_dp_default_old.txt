@@ -1,0 +1,50 @@
+<!-- Legacy METRIC include code start -->
+
+<script language='JavaScript'>
+      
+        var hpmmd=window.hpmmd||{type: 'Cleansheet Wash', page:{events:[]}, product:{},user:{},legacy:{},promo:{}};
+        
+        
+        /* Specify Pagename */
+		if((typeof s_hp_apj_pageName) != 'undefined' && s_hp_apj_pageName.length > 0){
+		  hpmmd.page.name=s_hp_apj_pageName;
+		} else if((typeof s_pageName) != 'undefined' && s_pageName.length > 0){
+		  hpmmd.page.name=s_pageName;
+		} else {
+		  hpmmd.page.name=document.title;
+		}
+
+		/* Section tracking by 2nd layer */
+		var s_hp_apj_jp_dir= location.href.split("/");
+		if(s_hp_apj_jp_dir.length <=4 || s_hp_apj_jp_dir[4].length == 0 || s_hp_apj_jp_dir[4].indexOf(".") >= 1
+		|| s_hp_apj_jp_dir[4].indexOf("?") >= 0 || s_hp_apj_jp_dir[4].indexOf("#") >= 0){
+		   hpmmd.page.section="jp-"+s_hp_apj_jp_dir[3];
+		} else {
+		   hpmmd.page.section="jp-"+s_hp_apj_jp_dir[3]+":"+s_hp_apj_jp_dir[4];
+		}
+
+
+		/* BU setting */
+		if((typeof s_hp_apj_businessUnit) != "undefined"){
+			var metaBU = document.createElement("META");
+			metaBU.setAttribute("name", "bu");
+			metaBU.setAttribute("content", s_hp_apj_businessUnit);
+			document.getElementsByTagName("head")[0].appendChild(metaBU);
+		} else {
+			var metaBU = document.getElementsByName("bu");
+			var metaBusinessUnit = document.getElementsByName("business_unit");
+			if(((typeof metaBU) == "undefined" || metaBU.length <= 0)
+				&& ((typeof metaBusinessUnit) =="undefined" || metaBusinessUnit.length <= 0)){
+				metaBU = document.createElement("META");
+				metaBU.setAttribute("name", "bu");
+				metaBU.setAttribute("content", "tsg");
+				document.getElementsByTagName("head")[0].appendChild(metaBU);
+			} 
+        }
+
+        
+        (function(){ var tf = "https://www.hpe.com/global/metrics/bootstrap/prod.js";    document.write('\x3Cscript type="text/javascript" src="' + tf + '">\x3C/script>');})();
+</script> 
+
+<!-- Legacy METRIC include code end -->
+

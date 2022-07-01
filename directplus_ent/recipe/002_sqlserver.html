@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<!--#include virtual="/directplus_ent/system/includes/dpb_lang.inc" -->
+<head>
+	<!--#include virtual="/directplus_ent/system/includes/dpb_meta_charset_responsive.inc" -->
+	<title>SQL Server 2017 へ上手に移行するための注意点<!--#include virtual="/comm/include/company_name_title_utf8.inc" --></title>
+	<meta name="keywords" content="Microsoft,SQL Server,データベース,EOS,サポート終了,移行,レシピ,サイジング,考慮,キュレーション"/>
+	<meta name="description" content="SQL Server 2005の延長サポートが終了し、一日も早い最新版のSQL Server 2017への移行をオススメします。SQL Server 2017へ移行するために役立つ情報を紹介します。"/>
+	
+	<meta name="bu" content="tsg">
+	<meta name="sub_bu" content="TSG.Servers">
+	<meta name="lifecycle" content="presales.awareness"/>
+	<meta name="segment" content="Commercial.Large">
+	<meta name="company_code" content="hpe">
+	<meta name="target_country" content="jp">
+	<meta name="web_section_id" content="R11974">
+	<meta name="hp_design_version" content="hpexpnontridion">
+	<meta name="user_profile" content="Commercial">
+	<meta name="page_content" content="Products">
+	<meta name="robots" content="index,follow,noarchive">
+	<meta name="date" content="2017-01-20">
+
+	<!--#include virtual="/directplus_ent/system/includes/dpb_meta_responsive.inc" -->
+	
+	<!--#include virtual="/directplus_ent/system/includes/dpb_caas-header-footer_responsive.inc" -->
+
+</head>
+<body>
+<div id="page" class="page">
+	<!--#include virtual="/directplus_ent/system/includes/dpb_totop_target_responsive.inc" -->
+	<!-- START CaaS header -->
+	<div id="header"></div>
+	<!-- END CaaS header -->
+	
+	<div id="content" class="content">
+	
+		<!--#include virtual="/directplus_ent/system/includes/dpb_sub_header_responsive.inc" -->
+		
+		<!--#include virtual="/directplus_ent/system/includes/dpb_sub_navigation_responsive.inc" -->
+		
+		<div class="bgGry mb40">
+			<div class="contentBox">
+				<div class="breadcrumb">
+					<ul>
+						<li><a href="/directplus_ent/">TOP</a></li>
+						<li><a href="/directplus_ent/recipe/">HPE サーバーレシピ</a></li>
+						<li>SQL Server 2017 へ上手に移行するための注意点</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="contentBox">
+			<div class="cfx">
+				<!--#include virtual="/directplus_ent/system/includes/dpb_mda_responsive.inc" -->
+				<h2 class="f28 mb20 bold withMda">HPE サーバーレシピ</h2>
+			</div>
+			<div class="contentsWithRightNavi f16">
+				<div class="leftCnt">
+					<h3 class="f24 mb10 bold">前編：SQL Server 2017 へ上手に移行するための注意点</h3>
+					<p class="f14 mb20">小森博之│2016.07.01(2018.10.10アップデート)│Windows Server</p>
+					
+					<!--#include virtual="/directplus_ent/recipe/includes/lead_text_responsive.inc" -->
+					
+					<div class="mb40WithBorder">
+						<div class="mb40">
+							<img src="images/002_sqlserver_main_v3.jpg" alt="" width="670" class="m0auto recipeImg">
+						</div>
+						<p>
+							SQL Server 2008および2008 R2のサポートが、2019年7月9日（火）に終了します。サポートが終了すると、セキュリティパッチ等の修正プログラムは提供されず、日本マイクロソフトからのサポートも受けられなくなります。一日も早い最新版のSQL Server 2017への移行をお勧めします。このレシピでは、SQL Server 2017へ移行するために役立つ情報を紹介します。
+						</p>
+					</div>
+					
+					<div class="mb40WithBorder">
+						<h3 class="f24 mb10 bold">さあレシピをどうぞ！</h3>
+						<h4 class="f20 mb10 bold">1. SQL Server の課金方法はこう変わった！</h4>
+						<p class="mb40">
+							プロセッサライセンスの場合、SQL Server 2008 R2までは搭載しているCPUソケット数で必要なライセンス数が決まっていました。SQL Server 2012以降では、これがCPUコア数によるライセンス（Computing Power ライセンス モデル）に変更されています。このため、新しいサーバーでは「CPUの選択」が重要になります。CPUは一般的にコア数が少ないほどクロックが高いものが用意され、コア数が多くなるとクロックが低くなる傾向にあります。コア数ベースのライセンスに対しては、コアあたりの性能の高いすなわちクロックの高いCPUを選択する方が有利です。拡張性なども踏まえた上で、CPUはできるだけクロックの高いものを選びましょう。HPE ProLiant Gen10ではCore Boostingテクノロジーにより通常よりも高い周波数で稼動できるCPUもご用意しています。(Core Boostingを使用するには、iLO5 Advancedライセンス以上のライセンスが必要です。) 
+						</p>
+						<div>
+							<img src="images/002_sqlserver_img_01_v3.jpg" alt="" width="670" class="m0auto recipeImg">
+						</div>
+					</div>
+					
+					<div class="mb40WithBorder">
+						<h4 class="f20 mb10 bold">2. OSバージョンとの整合性をチェックすべし！</h4>
+						<p class="mb40">
+							移行する先のSQL ServerのバージョンとWindows Serverのバージョンの検討も必要です。以下の表のようにSQL ServerとWindows Serverのバージョンの組み合わせには制限があります。一般的にSQL Serverのバージョンのほうがアプリケーションへの影響が大きいため、まずSQL Serverのバージョンを決めた上で、サポートされているWindows Serverのバージョンを選択しましょう。どちらも、なるべく新しいものを選択することをお勧めします。<br><br>
+							パッケージソフトウェアと一緒にSQL Serverを使用している場合も要注意です。パッケージソフトウェアのバージョンとの関係が出てきますので、パッケージソフトウェアでサポートされているSQL ServerとWindows Serverを合わせて確認しましょう。<br><br>
+							さらにサーバーがサポートしているWindows Serverのバージョンの確認も必要です。新しいサーバーでは古いWindows Serverをサポートしていないので、この点も要チェックです。 HPE ProLiantサーバーのWindowsサポート状況は以下のURLよりご確認ください。<br>
+                            <a href="http://h17007.www1.hpe.com/us/en/enterprise/servers/supportmatrix/windows.aspx" target="_blank" class="tertiary-link">http://h17007.www1.hpe.com/us/en/enterprise/servers/supportmatrix/windows.aspx</a>
+						</p>
+						<div>
+							<img src="images/002_sqlserver_img_02_v3.jpg" alt="" width="670" class="m0auto recipeImg">
+						</div>
+					</div>
+					
+					<div class="mb40WithBorder">
+						<h4 class="f20 mb10 bold">3. サーバーはもっとコンパクトにできる！</h4>
+						<p class="mb40">
+							サーバーの性能は年々進化しています。同じCPUコア数で比較してみましょう。例えば、7年前のHP ProLiant DL580 G7（4CPU/24コア構成）と現在のHPE ProLiant DL560 Gen10（4CPU/24コア構成）を比較すると「約3倍のCPU性能」となっています。SQL ServerにEnterprise Editionを使うと想定して価格を計算すると、ほぼ同等の価格となりました。3倍の性能がこれまでと変わらない価格で手に入るのです。
+						</p>
+						<div class="mb40">
+							<img src="images/002_sqlserver_img_03_v3.jpg" alt="" width="670" class="m0auto recipeImg">
+						</div>
+						<div>
+							<img src="images/002_sqlserver_img_04_v3.jpg" alt="" width="548" class="m0auto recipeImg">
+							<p class="mt20 f12">定価による比較。SQL ServerはOpen Business価格を使用。SA契約を持っていない場合を想定。</p>
+						</div>
+					</div>
+					
+					<div class="mb40WithBorder">
+						<h4 class="f20 mb10 bold">4. SQL Server 2017が新登場！</h4>
+						<p>
+							2017年10月にMicrosoft SQL Server 2017が登場しました。特にインメモリデータベース機能やクエリ・チューニング関連の機能が向上しています。これからSQL Serverのバージョンを検討するのなら、ぜひSQL Server 2017の検討をすることをお勧めします。Xeon CPUも新しいSkylake世代となりました。SQL Serverもサーバーも新しいものへ入れ替えるチャンスです。<br><br>
+							次回は、安全で確実な移行のためのチェック項目を含め、「SQL Server 2017 への移行を成功させるサーバー選び」と題してお届けします。
+						</p>
+                        <div class="alignRgt mt20"><a href="/directplus_ent/recipe/003_sqlserver.html" class="cta-link"><em class="icon-arrow-circle-right"></em>後編：サーバー選びでSQL Server 2017 移行の成否が決まる！</a></div>
+					</div>
+
+					<!--#include virtual="/directplus_ent/recipe/includes/footArea_responsive.inc" -->
+					
+					<!--#include virtual="/directplus_ent/system/includes/dpb_totop_responsive.inc" -->
+					
+				</div><!-- End Left contents -->
+				
+				<div class="rightNav">
+					
+					<div class="mb40">
+						<!--#include virtual="/directplus_ent/recipe/includes/rightnaviBnr_responsive.inc" -->
+						<p class="f15 mb5">キュレーター</p>
+						<div class="recipeCurator cfx">
+							<img src="images/komori.jpg" alt="<!--#include virtual="/comm/include/company_name_body_utf8.inc" --> データベーススペシャリスト 小森博之" width="170" class="mb10 curatorImg">
+							<div class="curatorProfile">
+								<p class="mb20 f12">
+									<!--#include virtual="/comm/include/company_name_body_utf8.inc" --><br>
+									データベーススペシャリスト<br>
+									小森博之
+								</p>
+								<p class="f12">
+									今やネットワーク型データベースを知る数少ないエンジニア。扱ったことがないRDBMSはなく、質問に答えられないことがないほどの“データベース博士”。現在は、カラム型データベースにインメモリデータベースとさらに進化中。
+								</p>
+							</div>
+						</div>
+						<!--#include virtual="/directplus_ent/recipe/includes/rightnaviLink_responsive.inc" -->
+					</div>
+				</div><!-- End Right navigation -->
+				
+			</div>
+		</div><!--End Contents with right navigation-->
+		
+		<!--#include virtual="/directplus_ent/system/includes/dpb_merit_responsive.inc" -->
+		<!--#include virtual="/directplus_ent/system/includes/dpb_contact_us_responsive.inc" -->
+		
+		<div class="contentBox">
+			<!--#include virtual="/directplus_ent/system/includes/dpb_foot_link_responsive.inc" -->
+			<!--#include virtual="/directplus_ent/system/includes/dpb_footnote_responsive.inc" -->
+			<!--#include virtual="/directplus_ent/system/includes/disclaimer_20181101.inc" -->
+		</div><!-- End Sub footer -->
+		
+	</div>
+	
+	<!-- START CaaS footer -->
+	<div id="footer"></div>
+	<!-- END CaaS footer -->
+	
+</div>
+<!--#include virtual="/directplus_ent/system/includes/dpb_foot_js.inc" -->
+<script>
+var s_hp_apj_pageName = "hpe directplus サーバーレシピ Vol.2 前編";
+</script>
+
+<!--#include virtual="/directplus_ent/include/n_dp_default.txt" -->
+</body>
+</html>

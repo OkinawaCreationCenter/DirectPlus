@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<!--#include virtual="/directplus_ent/system/includes/dpb_lang.inc" -->
+<head>
+<!--#include virtual="/directplus_ent/system/includes/dpb_meta_charset_responsive.inc" -->
+<title>「ProLiant」の設計思想 | <!--#include virtual="/comm/include/directplus_name.inc" -->オンラインストア<!--#include virtual="/comm/include/company_name_title_utf8.inc" --></title>
+<meta name="keywords" content="設計, 設計思想, proliant, hpe proliant, proliant 25周年, サーバーの歴史, proliantの歴史, hpe, ヒューレット・パッカード"/>
+<meta name="description" content="ProLiantがお客様から支持され続ける理由―その根底にあるのは、「徹底した高信頼」へのこだわりと、これを実現するための「妥協を許さない設計」です。「ProLiant」のネーミングには、「Professional （プロフェッショナル）＋Reliability（信頼性）」という意味が込められています。"/>
+<meta name="bu" content="tsg">
+<meta name="sub_bu" content="TSG.Servers">
+<meta name="lifecycle" content="presales.selection"/>
+<meta name="segment" content="Commercial.Large">
+<meta name="company_code" content="hpe">
+<meta name="target_country" content="jp">
+<meta name="web_section_id" content="R11974">
+<meta name="hp_design_version" content="hpexpnontridion">
+<meta name="user_profile" content="Commercial">
+<meta name="page_content" content="Products">
+<meta name="robots" content="index,follow,noarchive">
+<meta name="date" content="2019-02-08">
+
+<!--#include virtual="/directplus_ent/system/includes/dpb_meta_responsive.inc" -->
+
+<!--#include virtual="/directplus_ent/system/includes/dpb_caas-header-footer_responsive.inc" -->
+<style>
+.tCell50-50 {
+	width:100%;
+	display:table;
+	box-sizing: border-box;
+}
+.tCell50-50 > .clm1, .tCell50-50 > .clm2 {
+	display:table-cell;
+	vertical-align:top;
+	box-sizing:border-box;
+}
+.tCell50-50 > .clm1 {
+	width:50%;
+	padding-right:1.5%;
+}
+.tCell50-50 > .clm2 {
+	width:50%;
+	padding-left:1.5%;
+}
+.section01 .tCell50-50 > .clm1 {
+	padding-right: 2.5%;
+}
+.section01 .tCell50-50 > .clm2 {
+	padding-left: 2.5%;
+}
+@media only screen and (max-width:767px) {
+.tCell50-50.section01 {
+	display: flex;
+	flex-flow: column;
+}
+.tCell50-50 > .clm1, .tCell50-50 > .clm2 {
+	display:block;
+	width:100%;
+}
+.tCell50-50 > .clm1 {
+	padding-right:0;
+}
+.tCell50-50 > .clm2 {
+	padding-left:0;
+	margin-top: 20px;
+	margin-bottom:20px;
+}
+.sp_hide {
+	display: none;
+}
+/*.tCell50-50.section01 > .clm1 {
+	order: 2;
+}
+.tCell50-50.section01 > .clm2 {
+	order: 1;
+	flex-basis:auto;
+}*/
+}
+@media only screen and (min-width:768px) {
+	.pc_hide {
+	display: none;
+}
+}
+.hitoryProductImg {
+	width: 225px;
+	margin: 0 auto;
+}
+.column25-75 {
+	display: table;
+}
+.column25-75 .clm1 {
+	width: 25%;
+	display: table-cell;
+	float: none;
+	vertical-align: top;
+}
+.column25-75 .clm2 {
+	width: 75%;
+	display: table-cell;
+	float: none;
+	vertical-align: top;
+}
+.iconNo_01:after, .iconNo_02:after, .iconNo_03:after {
+	color: #FFF;
+	padding: 10px 25px;
+	font-size: 45px;
+	font-weight: normal;
+}
+.iconNo_01:after {
+	content: "1";
+	background-color: #425563;
+}
+.iconNo_02:after {
+	content: "2";
+	background-color: #5F7A76;
+}
+.iconNo_03:after {
+	content: "3";
+	background-color: #80746E;
+}
+.designphilosophyTwoClm {
+	width: 100%;
+	display: table;
+}
+.designphilosophyClm1, .designphilosophyClm2 {
+	display: table-cell;
+	vertical-align: top;
+}
+.designphilosophyClm1 {
+	padding-right: 10px;
+	width: 80px;
+}
+@media only screen and (max-width:767px) {
+.column25-75 .clm1, .column25-75 .clm2 {
+	width: 100%;
+	display: block;
+}
+.column25-75 .clm2 {
+	text-align: center;
+	padding-top: 0;
+	box-sizing: border-box;
+}
+.column25-75 .clm2 p {
+	text-align: left;
+}
+.section01 .tCell50-50 > .clm1 {
+	padding-right: 0;
+}
+.section01 .tCell50-50 > .clm2 {
+	padding-left: 0;
+}
+.iconNo_01:after, .iconNo_02:after, .iconNo_03:after {
+	padding: 10px 20px;
+}
+.designphilosophyClm1 {
+	width: 70px;
+}
+}
+</style>
+</head>
+<body>
+<div id="page" class="page cal"> 
+  <!--#include virtual="/directplus_ent/system/includes/dpb_totop_target_responsive.inc" --> 
+  <!-- START CaaS header -->
+  <div id="header"></div>
+  <!-- END CaaS header -->
+  
+  <div id="content" class="content"> 
+    
+    <!--#include virtual="/directplus_ent/system/includes/dpb_sub_header_responsive.inc" --> 
+    
+    <!--#include virtual="/directplus_ent/system/includes/dpb_sub_navigation_responsive.inc" -->
+    
+    <div class="bgGry mb40">
+      <div class="contentBox">
+        <div class="breadcrumb">
+          <ul>
+            <li><a href="/directplus_ent/">TOP</a></li>
+            <li><a href="/directplus_ent/promotion/25years_of_proliant/">HPE ProLiantサーバーのイノベーション</a></li>
+            <li>「ProLiant」の設計思想</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="contentBox">
+      <div class="content1000px">
+        <div class="rightCnt">
+          <h2 class="mb20"> <span class="f28 bold">妥協を許さない設計とともに受け継がれる「高信頼性」のDNA。</span><!--<br>
+            <span class="f20"></span>--> </h2>
+          <div class="mb40">
+            <p>ProLiantは最新のテクノロジーをいち早く採用しながら、様々な領域へ活躍の場を広げてきました。<br>
+              ProLiantがお客様から支持され続ける理由――その根底にあるのは、「徹底した高信頼」へのこだわりと、これを実現するための「妥協を許さない設計」です。<br>
+              「ProLiant」のネーミングには、「Professional （プロフェッショナル）＋Reliability（信頼性）」という意味が込められています。</p>
+          </div>
+          <div class="tCell50-50 section01 mb40">
+            <div class="clm1">
+              <div class="designphilosophyTwoClm mb50">
+                <div class="designphilosophyClm1"><span class="iconNo_01"></span></div>
+                <div class="designphilosophyClm2">
+                  <h3 class="f24 bold mb5">徹底した冷却効率の追求</h3>
+                  <p>iLOが収集した温度情報と連携して必要な箇所を集中的に冷やすなど、最適なファンの制御を行っています。また、内部接続にきしめん型ケーブルを採用し、サーバーの側面に沿って丁寧に配線しています。これにより空気の流れを良くして冷却効率を高めています。</p>
+                </div>
+              </div>
+              <div class="designphilosophyTwoClm mb50">
+                <div class="designphilosophyClm1"><span class="iconNo_02"></span></div>
+                <div class="designphilosophyClm2">
+                  <h3 class="f24 bold mb5">考え抜かれたメンテナンス性</h3>
+                  <p>オンラインで交換できるコンポーネントに赤色、できないものには青色を使用し、部品交換時などにミスが起こらないよう配慮しています。また、接続用のネジを徹底的に削減していることにもご注目ください。ネジの落下による故障の未然防止は、サーバー運用の現場で培ったノウハウのひとつです。</p>
+                </div>
+              </div>
+              <div class="designphilosophyTwoClm mb50">
+                <div class="designphilosophyClm1"><span class="iconNo_03"></span></div>
+                <div class="designphilosophyClm2">
+                  <h3 class="f24 bold mb5">高密度化へのこだわり</h3>
+                  <p>限られたスペースにより多くのCPUやメモリを搭載できるよう、サーバー内部の高密度設計にこだわっています。最新のHPE ProLiant Gen10は、2年間で250億円の投資、900件以上の特許を出願した開発計画「Project Voyager」を経て様々な部品の縮小化を実現しています。</p>
+                </div>
+              </div>
+              <p class="mt30">最新のHPE ProLiant Gen10は、ASHRAE（米国暖房冷凍空調学会）の環境基準A4 / A3に適合。<br>
+                優れた電力・排熱効率を備えるASHRAE A4適合モデルでは最大45℃での動作を保証しています。（<sup>*</sup>構成に条件があります）</p>
+            </div>
+            <div class="clm2">
+              <div class="mt20 alignCtr"><img src="images/img_designphilosophy_01.jpg" class="w100per">
+              </div>
+            </div>
+          </div>
+          <div class="mb40WithBorder">
+            <div class="gryBdr4px mt10">
+              <div class="column25-75 cfx">
+                <div class="clm1 mb0"> <img src="images/history_product_dl360gen10.jpg" class="hitoryProductImg"> </div>
+                <div class="clm2 paddBlock15">
+                  <p class="bold f16 lhMin">世界標準の安心サーバー<br>
+                    HPE ProLiant Gen10サーバー</p>
+                  <p>HPE独自開発のシリコンチップHPE Integrated Lights-Out 5（iLO 5）を搭載し、サーバーセキュリティの基準を示す「世界標準の安心サーバー」。</p>
+                  <a href="/directplus_ent/server/gen10.html" role="button" class="btn btn-secondary historyLinkBtn">ご購入はこちら</a> </div>
+              </div>
+            </div>
+          </div>
+          
+          <!--#include virtual="/directplus_ent/system/includes/dpb_totop_responsive.inc" --> 
+          
+        </div>
+        <!-- End Right contents --> 
+        
+      </div>
+    </div>
+    <!--End Contents with right navigation--> 
+    
+    <!--#include virtual="/directplus_ent/system/includes/dpb_merit_responsive.inc" -->
+    <div id="ContactUs"> 
+      <!--#include virtual="/directplus_ent/system/includes/dpb_contact_us_responsive.inc" --> 
+    </div>
+    <div class="contentBox"> 
+      <!--#include virtual="/directplus_ent/system/includes/dpb_foot_link_responsive.inc" --> 
+      <!--#include virtual="/directplus_ent/system/includes/dpb_footnote_responsive.inc" --> 
+      <!--#include virtual="/directplus_ent/system/includes/disclaimer_20181101.inc" --> 
+    </div>
+    <!-- End Sub footer --> 
+    
+  </div>
+  
+  <!-- START CaaS footer -->
+  <div id="footer"></div>
+  <!-- END CaaS footer --> 
+  
+</div>
+<!--#include virtual="/directplus_ent/system/includes/dpb_foot_js.inc" --> 
+<script>
+var s_hp_apj_pageName = "hpe directplus 07designphilosophy 25ofproliant";
+</script> 
+
+<!--#include virtual="/directplus_ent/include/n_dp_default.txt" -->
+</body>
+</html>

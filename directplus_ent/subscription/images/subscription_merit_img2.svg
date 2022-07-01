@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_イヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" width="1000" height="896.99" viewBox="0 0 1000 896.99">
+  <polygon points="379.66 531.06 374.04 531.06 374.04 563.29 367.51 563.29 367.51 568.92 386.19 568.92 386.19 563.29 379.66 563.29 379.66 531.06" style="fill: #c6c9c9;"/>
+  <polygon points="622 563.29 622 531.06 616.38 531.06 616.38 563.29 609.85 563.29 609.85 568.92 628.54 568.92 628.54 563.29 622 563.29" style="fill: #c6c9c9;"/>
+  <polygon points="465.63 525.62 357.68 525.62 357.68 490.65 351.15 490.65 351.15 485.02 363.31 485.02 363.31 520 465.63 520 465.63 525.62" style="fill: #085062;"/>
+  <polygon points="638.36 525.62 564.18 525.62 564.18 520 632.73 520 632.73 485.02 644.89 485.02 644.89 490.65 638.36 490.65 638.36 525.62" style="fill: #085062;"/>
+  <polygon points="624.34 511.13 618.71 511.13 618.71 442.39 613.02 442.39 613.02 436.77 624.34 436.77 624.34 511.13" style="fill: #085062;"/>
+  <polygon points="437.71 436.77 371.7 436.77 371.7 511.2 377.33 511.2 377.33 442.39 435.99 442.39 437.71 436.77" style="fill: #085062;"/>
+  <polygon points="572.63 594.67 555.87 594.67 526.75 520.17 499.9 520.17 499.9 514.54 530.6 514.54 559.72 589.05 565.52 589.05 543.77 496.42 499.3 496.42 499.3 490.8 548.23 490.8 572.63 594.67" style="fill: #80746e;"/>
+  <path d="M502.05,594.67h-18.34l-10.97-103.88h31.69l-2.38,103.88Zm-13.28-5.63h7.78l2.12-92.62h-19.68l9.78,92.62Z" style="fill: #80746e;"/>
+  <rect x="482.68" y="597.77" width="20.22" height="5.63" style="fill: #040000;"/>
+  <rect x="553.39" y="597.77" width="20.23" height="5.63" style="fill: #040000;"/>
+  <path d="M501.07,392.26l.18,.21,5.88-4.22,.63-6.25c4.2-.32,6.93-2.22,8.56-3.93,3.14-3.28,4.55-8.25,3.86-13.61-.32-2.52-1.48-11.54-1.98-15.38-1.62,1.73-3.28,3.58-5,5.21,.53,4.14,1.17,9.11,1.4,10.88,.47,3.62-.41,6.99-2.34,9.01-1.62,1.7-3.92,2.44-6.8,2.19l-2.76-.23-1.63,16.12Z" style="fill: #040000;"/>
+  <rect x="468.74" y="423.17" width="5.63" height="35.87" transform="translate(-29.95 34.38) rotate(-4.05)" style="fill: #54bdb4;"/>
+  <polygon points="590.44 444.87 584.81 444.87 584.81 434.73 552.71 434.73 536.8 402.09 515.74 397.16 507.83 403.27 504.39 398.82 514.42 391.07 540.69 397.22 556.23 429.11 590.44 429.11 590.44 444.87" style="fill: #54bdb4;"/>
+  <polygon points="461.65 485.69 456.02 485.69 456.02 476.13 440.26 476.13 440.26 448.08 456.83 400.23 486.11 390.99 496.24 398.82 492.8 403.27 485 397.24 461.22 404.75 445.89 449.03 445.89 470.5 461.65 470.5 461.65 485.69" style="fill: #54bdb4;"/>
+  <polygon points="608.25 442.29 602.62 442.29 602.62 436.21 593.62 435.71 593.93 430.09 608.25 430.89 608.25 442.29" style="fill: #040000;"/>
+  <polygon points="541.24 443.68 527.43 414.11 522.33 416.49 526.5 425.42 522.52 485.51 528.13 485.88 531.44 435.99 536.14 446.06 541.24 443.68" style="fill: #54bdb4;"/>
+  <polygon points="476.91 483.44 471.28 483.44 471.28 476.13 465.05 476.13 465.05 470.5 476.91 470.5 476.91 483.44" style="fill: #040000;"/>
+  <path d="M500.68,470.44c-1.85,0-3.36,1.5-3.36,3.36s1.5,3.36,3.36,3.36,3.36-1.5,3.36-3.36-1.5-3.36-3.36-3.36" style="fill: #54bdb4;"/>
+  <path d="M500.68,449.44c-1.85,0-3.36,1.5-3.36,3.36s1.5,3.36,3.36,3.36,3.36-1.5,3.36-3.36-1.5-3.36-3.36-3.36" style="fill: #54bdb4;"/>
+  <path d="M500.68,428.43c-1.85,0-3.36,1.5-3.36,3.36s1.5,3.36,3.36,3.36,3.36-1.5,3.36-3.36-1.5-3.36-3.36-3.36" style="fill: #54bdb4;"/>
+  <path d="M500.68,407.42c-1.85,0-3.36,1.5-3.36,3.36s1.5,3.36,3.36,3.36,3.36-1.5,3.36-3.36-1.5-3.36-3.36-3.36" style="fill: #54bdb4;"/>
+  <path d="M512.14,348.07l2.63-2.93c1.05-1.61,1.63-3.39,1.45-5.3l-.22-2.48-2.49-.08c-2.77-.09-4.97-.24-6.92-.37-2.8-.18-5.22-.34-8.09-.26-4.63,.13-8.94,2.32-12.12,6.18-2.97,3.6-4.59,8.3-4.47,12.9,.12,4.63,2.03,8.77,5.37,11.64,.47,.41,.98,.78,1.5,1.13l4.4-3.97c-.81-.4-1.57-.85-2.24-1.42-2.15-1.85-3.33-4.45-3.41-7.53-.09-3.26,1.07-6.6,3.18-9.16,2.13-2.59,4.95-4.06,7.94-4.14,2.6-.07,4.79,.07,7.57,.26,1.04,.07,2.15,.14,3.38,.21-1.83,2.13-5.79,4.2-9.17,4.79l-1.42,.25-.63,1.3c-2.2,4.55-1.96,8.63-1.4,12.03l2.54-2.29,2.72-1.9c0-1.39,.18-2.76,.69-4.17,3.17-.81,6.61-2.45,9.21-4.66" style="fill: #7f736d;"/>
+  <text transform="translate(372.77 74.09)" style="fill: #221815; font-weight: bold; font-size: 18px;"><tspan x="0" y="0" style="letter-spacing: .02em;">イニシャルコスト不要</tspan></text>
+  <text transform="translate(698.84 74.09)" style="fill: #221815; font-weight: bold; font-size: 18px;"><tspan x="0" y="0" style="letter-spacing: .02em;">5営業日の短納期</tspan></text>
+  <text transform="translate(699.42 255.41)" style="fill: #221815; font-weight: bold; font-size: 18px;"><tspan x="0" y="0" style="letter-spacing: .02em;">すぐに使い始められる</tspan></text>
+  <text transform="translate(372.77 799.34)" style="fill: #221815; font-weight: bold; font-size: 18px;"><tspan x="0" y="0" style="letter-spacing: .02em;">事務管理を大幅に省力化</tspan></text>
+  <text transform="translate(699.42 618.03)" style="fill: #221815; font-weight: bold; font-size: 18px;"><tspan x="0" y="0" style="letter-spacing: .02em;">障害を予兆検知</tspan></text>
+  <text transform="translate(699.42 439.84)" style="fill: #221815; font-weight: bold; font-size: 18px;"><tspan x="0" y="0" style="letter-spacing: .02em;">シリコンレベルの信頼性</tspan></text>
+  <text transform="translate(699.42 799.34)" style="fill: #221815; font-weight: bold; font-size: 18px;"><tspan x="0" y="0" style="letter-spacing: .02em;">不慮の事故にも対応</tspan></text>
+  <text transform="translate(46.12 74.09)" style="fill: #221815; font-weight: bold; font-size: 18px;"><tspan x="0" y="0" style="letter-spacing: .02em;">フルカスタマイズで最適構成</tspan></text>
+  <text transform="translate(230.54 126.31)" style="fill: #221815; font-size: 19.01px;"><tspan x="0" y="0"> </tspan></text>
+  <path d="M302.4,28.93l32.37,64.92-32.37,64.91H26.02V28.93H302.4Zm2.26-3.66H22.36V162.41H304.66l34.19-68.57-34.19-68.57Z" style="fill: #005167;"/>
+  <path d="M629.05,28.93l32.37,64.92-32.37,64.91H352.67V28.93h276.38Zm2.26-3.66H349.01V162.41h282.3l34.19-68.57-34.19-68.57Z" style="fill: #62c3cd;"/>
+  <path d="M974.24,754.18v129.83h-276.38l-32.37-64.91,32.37-64.92h276.38Zm3.66-3.66h-282.3l-34.19,68.57,34.19,68.57h282.3v-137.14Z" style="fill: #62c3cd;"/>
+  <path d="M974.24,28.93V160.15l-64.92,32.37-66.94-33.38-.77-.38h-163.06V28.93h295.69Zm3.66-3.66h-303V162.41h165.86l68.57,34.19,68.57-34.19V25.27Z" style="fill: #005167;"/>
+  <path d="M974.24,210.24v131.22l-64.92,32.37-66.94-33.38-.77-.38h-163.06V210.24h295.69Zm3.66-3.66h-303v137.14h165.86l68.57,34.19,68.57-34.19V206.59Z" style="fill: #005167;"/>
+  <path d="M974.24,394.67v131.22l-64.92,32.37-66.94-33.38-.77-.38h-163.06v-129.83h295.69Zm3.66-3.66h-303v137.14h165.86l68.57,34.19,68.57-34.19v-137.14Z" style="fill: #524d9e;"/>
+  <path d="M974.24,575.99v131.22l-64.92,32.37-66.94-33.38-.77-.38h-163.06v-129.83h295.69Zm3.66-3.66h-303v137.14h165.86l68.57,34.19,68.57-34.19v-137.14Z" style="fill: #524d9e;"/>
+  <path d="M648.35,754.18v129.83H371.97l-32.37-64.91,32.37-64.92h276.38Zm3.66-3.66H369.71l-34.19,68.57,34.19,68.57h282.3v-137.14Z" style="fill: #62c3cd;"/>
+  <path d="M90.93,720.42l66.94,33.38,.77,.38h163.06v129.83H26.02v-131.22l64.92-32.37Zm0-4.08l-68.57,34.19v137.14H325.36v-137.14H159.5l-68.57-34.19Z" style="fill: #62c3cd;"/>
+  <path d="M90.93,539.11l66.94,33.38,.77,.38h163.06v129.83H26.02v-131.22l64.92-32.37Zm0-4.08l-68.57,34.19v137.14H325.36v-137.14H159.5l-68.57-34.19Z" style="fill: #62c3cd;"/>
+  <path d="M90.93,354.68l66.94,33.38,.77,.38h163.06v129.83H26.02v-131.22l64.92-32.37Zm0-4.08l-68.57,34.19v137.14H325.36v-137.14H159.5l-68.57-34.19Z" style="fill: #62c3cd;"/>
+  <text transform="translate(46.12 799.34)" style="fill: #221815; font-weight: bold; font-size: 18px;"><tspan x="0" y="0">コスト把握が容易</tspan></text>
+  <text transform="translate(46.12 618.03)" style="fill: #221815; font-weight: bold; font-size: 18px;"><tspan x="0" y="0">老朽化リスクをヘッジ</tspan></text>
+  <g>
+    <text transform="translate(45.83 645.9)" style="fill: #221815; font-size: 14px;"><tspan x="0" y="0">サブスク期間の設定により、常に最新鋭</tspan></text>
+    <text transform="translate(46.12 669.66)" style="fill: #221815; font-size: 14px;"><tspan x="0" y="0">の機器を使用可能。</tspan></text>
+  </g>
+  <text transform="translate(46.12 433.6)" style="fill: #221815; font-weight: bold; font-size: 18px;"><tspan x="0" y="0">廃棄コストが不要</tspan></text>
+  <g>
+    <text transform="translate(45.83 461.47)" style="fill: #221815; font-size: 14.62px;"><tspan x="0" y="0">サブスク終了後は返却するだけ。こちら</tspan></text>
+    <text transform="translate(45.53 485.23)" style="fill: #221815; font-size: 14.62px;"><tspan x="0" y="0">で法令に従って適正に処理します。</tspan></text>
+  </g>
+  <text transform="translate(22.36 249.67)" style="font-weight: bold; font-size: 21.93px;"><tspan x="0" y="0">サブスク＋オンラインストアで、</tspan><tspan x="0" y="28">導入から廃棄まで “いいところ取り”</tspan></text>
+  <text transform="translate(44.22 101.39)" style="font-size: 14px;"><tspan x="0" y="0">ご予算、性能に応じて選択いただける</tspan><tspan x="-.14" y="24.5">フルカスタマイズCTOに対応</tspan></text>
+  <text transform="translate(230.05 121.23) scale(.58)" style="font-size: 14px;"><tspan x="0" y="0">※1</tspan></text>
+  <text transform="translate(243.66 125.89)" style="font-size: 14px; letter-spacing: -.5em;"><tspan x="0" y="0">。</tspan></text>
+  <text transform="translate(372.19 101.01)" style="font-size: 14px;"><tspan x="0" y="0">月額でのお支払い。初期投資を抑えて、</tspan><tspan x=".14" y="24.5">経営資金を有効に活用できます。</tspan></text>
+  <text transform="translate(698.63 101.01)" style="font-size: 14px;"><tspan x="0" y="0">標準で正式受注後、5営業日の短納期で</tspan><tspan x="0" y="24.5">のお届けを実現</tspan></text>
+  <text transform="translate(799.15 120.85) scale(.58)" style="font-size: 14px;"><tspan x="0" y="0">※2</tspan></text>
+  <text transform="translate(812.76 125.51)" style="font-size: 14px; letter-spacing: -.5em;"><tspan x="0" y="0">。</tspan></text>
+  <text transform="translate(698.63 282.38)" style="font-size: 14px;"><tspan x="0" y="0">内蔵オプションの組み込み、Windows</tspan><tspan x="0" y="24.5">ServerのOSプリインストールに対応</tspan></text>
+  <text transform="translate(933.06 302.22) scale(.58)" style="font-size: 14px;"><tspan x="0" y="0">※3</tspan></text>
+  <text transform="translate(946.67 306.88)" style="font-size: 14px; letter-spacing: -.5em;"><tspan x="0" y="0">。</tspan></text>
+  <text transform="translate(697.79 467.5)" style="font-size: 14px;"><tspan x="0" y="0">ファームウェアの更新や不正書き換えの</tspan><tspan x=".84" y="24.5">早期認識と回復機能を搭載</tspan></text>
+  <text transform="translate(853.61 487.33) scale(.58)" style="font-size: 14px;"><tspan x="0" y="0">※4</tspan></text>
+  <text transform="translate(867.22 492)" style="font-size: 14px; letter-spacing: -.5em;"><tspan x="0" y="0">。</tspan></text>
+  <text transform="translate(698.63 645.36)" style="font-size: 14px;"><tspan x="0" y="0">AIによる障害の予兆検知からケースオー</tspan><tspan x="-.84" y="24.5">プンまで自動化が可能</tspan></text>
+  <text transform="translate(837.8 665.19) scale(.58)" style="font-size: 14px;"><tspan x="5" y="0">※5</tspan></text>
+  <text transform="translate(851.4 669.86)" style="font-size: 14px; letter-spacing: -.5em;"><tspan x="3" y="0">。</tspan></text>
+  <text transform="translate(698.35 826.67)" style="font-size: 14px;"><tspan x="0" y="0">サブスク製品には動産総合保険が付いて</tspan><tspan x=".14" y="24.5">います。万が一でも安心！</tspan></text>
+  <text transform="translate(373.55 826.67)" style="font-size: 14px;"><tspan x="0" y="0">製品所有に伴う事務手続きや、固定資産</tspan><tspan x="0" y="24.5">税などの事務処理を軽減できます。</tspan></text>
+  <text transform="translate(46.34 826.67)" style="font-size: 14px;"><tspan x="0" y="0">毎月定額のサブスク料のため、コスト把</tspan><tspan x="0" y="24.5">握が容易になります。</tspan></text>
+</svg>
