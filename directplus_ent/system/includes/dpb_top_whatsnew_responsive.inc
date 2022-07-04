@@ -36,12 +36,74 @@
 						<div class="whatsNew">
 							<ul>
 								<li class="newsIcon_newpro">
+									<span class="newsDate">2022.06.29</span>
+									<div class="newsTxt">
+										<a href="/directplus_ent/server/dl360gen10plus/">DL360 Gen10 Plus</a>（4LFF SAS モデル）で以下のオプション製品を販売開始<br>
+										・MegaRAID MR216i-a コントローラー<br>
+										・MegaRAID MR416i-a コントローラー<br>
+										・DL36x Gen10 Plus 4LFF SAS/SATA to Tri-Mode ケーブルキット<br>
+										・DL36x Gen10 Plus 8SFF SAS/SATA to Tri-Mode ケーブルキット<br>
+										<p class="f12 ml15 indent-1" >※DL360 Gen10 Plus 8SFF SAS/SATA バックプレーンキットとのセット販売となります。カスタマイズ画面では「DL360 Gen10 Plus 8SFF SAS/SATA バックプレーンキット w/ケーブル」と表示されます。</p>
+										・DL36x Gen10 Plus 2SFF SAS/SATA to Tri-Mode ケーブルキット<br>
+										<p class="f12 ml15 indent-1">※DL360 Gen10 Plus 2SFF SAS/SATA バックプレーンキットとのセット販売となります。カスタマイズ画面では「DL360 Gen10 Plus 2SFF SAS/SATA バックプレーンキット w/ケーブル」と表示されます。</p>
+									</div>
+								</li>
+								<li class="newsIcon_newpro">
+									<span class="newsDate">2022.06.24</span>
+									<div class="newsTxt">
+										<a href="/directplus_ent/server/dl385gen10plusv2/">DL385 Gen10 Plus v2</a>（8SFF モデル）で以下のオプション製品を販売開始<br>
+										・MegaRAID MR216i-a コントローラー<br>
+										・MegaRAID MR416i-a コントローラー<br>
+										・DL38x Gen10 Plus SAS/SATA to Tri-Mode ケーブルキット<br>
+										・DL300 Gen10 Plus 2U 8SFF x1 Tri-Mode U.3 ドライブケージ<br>
+										・8SFF フロントケージ取り外し指示 FIO<br>
+										<p class="f12 ml15 indent-1">※DL300 Gen10 Plus 2U 8SFF x1 Tri-Mode U.3 ドライブケージ とのセット販売となります。カスタマイズ画面では「DL300 Gen10 Plus 2U 8SFF x1 Tri-Mode U.3 ドライブケージ w/ケージ取り外し」と表示されます。</p>
+										・DL38x Gen10 Plus 8SFF SAS/SATA Tri-Mode ドライブケージキット<br>
+										・DL300 Gen10 Plus 2U 8SFF x1 Tri-Mode U.3 ドライブケージ
+									</div>
+								</li>
+								<li class="newsIcon_newpro">
 									<span class="newsDate">2022.06.24</span>
 									<span class="newsTxt">
 										<a href="/directplus_ent/server/dl380gen10plus/">DL380 Gen10 Plus</a>で以下のオプション製品を販売開始<br>
 										・DL38x Gen10 Plus SAS/SATA to Tri-Mode ケーブルキット<br>
 										・DL38x Gen10 Plus 8SFF SAS/SATA Tri-Mode ドライブケージキット<br>
 									</span>
+								</li>
+								<li class="newsIcon_newpro">
+									<span class="newsDate">2022.06.21</span>
+									<div class="newsTxt">
+										<a href="/directplus_ent/server/dl345gen10plus/">DL345 Gen10 Plus</a>（8SFF モデル）で以下のオプション製品を販売開始<br>
+										・MegaRAID MR216i-a コントローラー<br>
+										・MegaRAID MR416i-a コントローラー<br>
+										・DL300 Gen10 Plus 2U 8SFF x1 Tri-Mode U.3 ドライブケージ<br>
+										・8SFF フロントケージ取り外し指示 FIO<br>
+										<p class="f12 ml15 indent-1">※DL300 Gen10 Plus 2U 8SFF x1 Tri-Mode U.3 ドライブケージ とのセット販売となります。カスタマイズ画面では「DL300 Gen10 Plus 2U 8SFF x1 Tri-Mode U.3 ドライブケージ w/ケージ取り外し」と表示されます。</p>
+									</div>
+								</li>
+								<li class="newsIcon_newpro">
+									<span class="newsDate">2022.06.09</span>
+									<div class="newsTxt">
+										<a href="/directplus_ent/server/dl325gen10plusv2/">DL325 Gen10 Plus v2</a>（8SFF モデル）、<a href="/directplus_ent/server/dl365gen10plus/">DL365 Gen10 Plus</a>（8SFF モデル）で以下のオプション製品を販売開始<br>
+										・MegaRAID MR216i-a コントローラー<br>
+										・MegaRAID MR416i-a コントローラー<br>
+										<br>
+										<a href="/directplus_ent/server/dl325gen10plusv2/">DL325 Gen10 Plus v2</a>（8SFF モデル）で以下のオプション製品を販売開始<br>
+										・DL325 Gen10 Plus v2 8SFF U.3 BC FIO バックプレーンキット<br>
+										・DL325 Gen10 Plus v2 8SFF NVMe TM ケーブルキット<br>
+										<p class="f12 ml15 indent-1">※セット販売となります。カスタマイズ画面では「8SFF U.3 BC FIO バックプレーンキット w/ケーブル」と表示されます。</p>
+										・DL325 Gen10 Plus v2 2SFF NVMe TM ケーブルキット（追加ドライブケージ用）<br>
+										<br>
+										<a href="/directplus_ent/server/dl365gen10plus/">DL365 Gen10 Plus</a>（8SFF モデル）で以下のオプション製品を販売開始<br>
+										・DL36X Gen10 Plus 8SFF x4 Tri-Mode U.3 バックプレーンキット<br>
+										・DL36X Gen10 Plus 8SFF Tri-Mode ケーブルキット<br>
+										<p class="f12 ml15 indent-1">※セット販売となります。カスタマイズ画面では「DL36X Gen10 Plus 8SFF x4 Tri-Mode U.3 バックプレーンキットw/ケーブル」と表示されます。</p>
+										・DL365 Gen10 Plus 2SFF U.3バックプレーンキット<br>
+										・DL36X Gen10 Plus 2SFF Tri-Mode ケーブルキット<br>
+										<p class="f12 ml15 indent-1">※セット販売となります。カスタマイズ画面では「DL365 Gen10 Plus 2SFF U.3バックプレーンキットw/ケーブル」と表示されます。</p>
+										・960GB SAS 24G RI SFF BC MV SSD<br>
+										・800GB SAS 24G MU SFF BC MV SSD
+									</div>
 								</li>
 								<li class="newsIcon_old">
 									<span class="newsDate">2022.06.09</span>
