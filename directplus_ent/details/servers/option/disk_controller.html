@@ -29,50 +29,56 @@
 	<div id="content" class="content">
 		<div class="popupCcontent">
 			<div class="mb20">
-				<h1 class="bold f18 popupHeader">内蔵ディスクコントローラーの選択</h1>
+				<h1 class="bold f24 popupHeader">内蔵ディスクコントローラーの選択</h1>
 				<div class="mb20">
-					<h2 class="bold f16 mb5">ハードウェアRAIDとソフトウェアRAID</h2>
+					<h2 class="bold f18 mb5">ハードウェアRAIDとソフトウェアRAID</h2>
 					<p>
-						通常サーバーでは、ハードディスクドライブ（HDD）やソリッドステートドライブ（SSD）上のデータの可用性を高めたり、読み書きを高速化するために、"複数のHDD/SSDを一まとめにして管理する"RAIDを構成するのが一般的となっています。<br>
-						RAIDには、専用のコントローラー（Smartアレイコントローラー）を用いたハードウェアRAIDと、OSが提供する機能を利用したソフトウェアRAIDがあります。<br>
+						通常サーバーでは、ハードディスクドライブ（HDD）やソリッドステートドライブ（SSD）上のデータの可用性を高め、また読み書きを高速化するために"複数のHDD/SSDを一まとめにして管理する"RAIDを構成するのが一般的となっています。<br>
+						RAIDには、専用のコントローラー（MegaRAIDコントローラーまたはSmartアレイコントローラー）を用いたハードウェアRAIDと、OSが提供する機能を利用したソフトウェアRAIDがあります。<br>
 						ハードウェアRAIDは専用の制御用ハードウェアで複数のディスクへの入出力を高速処理するため、ソフトウェアRAIDと比較して高性能です。<br>
 						一方、ソフトウェアRAIDはOS自体の機能であるためハードウェアRAIDと比較して安価に構成できますが、RAIDの処理をプロセッサーが行うため、プロセッサーへの負荷が高くなる傾向があります。
 					</p>
 				</div>
 				<div class="mb20">
-					<h2 class="bold f16 mb5">Smartアレイコントローラーの機能</h2>
-					<p class="mb20">
-						HPEのSmartアレイコントローラーによるハードウェアRAIDと、ホットプラグ対応ディスクの組み合わせにより、ハードディスクの障害からデータを守ります。<br>
-						Smartアレイコントローラーには、以下の機能があります。<br>
-						<span class="f11">ただし、利用可能な機能はSmartアレイコントローラーの構成やライセンスの有無、利用しているOS種別によりサポートされないものや、制限される場合もあります。</span>
-					</p>
-					<h3 class="bold mb5">RAIDレベルの指定</h3>
-					<p class="mb20">
-						Smartアレイコントローラーでは、RAID0、RAID1+0、RAID5、RAID50、RAID6（RAID ADG）、RAID60がサポートされます。（アレイコントローラーによりサポートされるRAIDレベルは異なります。）
-					</p>
-					<h3 class="bold mb5">ドライブアレイと論理ドライブ</h3>
-					<p class="mb20">
-						複数のディスクを組み合わせてドライブアレイを作成します。さらに論理ドライブと呼ばれる仮想ユニットをアレイ内に作成します。この論理ドライブが、OSからは物理ディスクとして認識されます。<br>
-						通常は1つのアレイに対して1つの論理ドライブを作成しますが、1つのアレイ内に異なるRAIDレベルの複数の論理ドライブを設定することも可能です。
-					</p>
-					<h3 class="bold mb5">オンラインスペア（ホットスペア）</h3>
-					<p class="mb20">
-						オンラインスペアをアレイに割り当てることにより、故障したハードディスクの交換を延期できます。<br>
-						オンラインスペアを持つアレイのハードディスクに障害が発生した場合、そのアレイ内の論理ドライブはオンラインスペアを使用して自動的に再構築されます。
-					</p>
-					<h3 class="bold mb5">アレイアクセラレータ（キャッシュ）</h3>
-					<p class="mb20">
-						アレイアクセラレータは、ハードディスクに比べて入出力処理が高速なメモリにデータを格納することによって、データの読み書きが集中する時の効率を大幅に向上させます。<br>
-						また、バッテリバックアップ機能は、バッテリにより停電などの障害からキャッシュ内のデータを保護します。
-					</p>
-					<p class="mb20">
-						Smartアレイコントローラーでは、この他にも様々な機能が利用できます。
-					</p>
+					<h2 class="bold f18 mb5">MegaRAIDコントローラーとSmartアレイコントローラー</h2>
+					<p class="mb20">MegaRAIDコントローラーとSmartアレイコントローラーはいずれもハードウェアRAIDです。これらのコントローラーによるハードウェアRAIDと、ホットプラグ対応ディスクの組み合わせにより、ハードディスクの障害からデータを守ります。
+						<br>ご選択いただいたHPE ProLiant サーバーによって、MegaRAIDコントローラーをサポートするモデルとSmartアレイコントローラーをサポートするモデルが異なります。「カスタマイズ」ページの「内蔵ディスクコントローラー」に表示されているものがサポート可能なコントローラーになります。
+						<br>MegaRAIDコントローラーとSmartアレイコントローラーは以下のような基本機能を持ちます。
+						<br><span class="f11">※ただしコントローラーの構成やライセンスの有無、利用しているOS種別によりサポートされない場合や制限される場合があります。</span></p>
+					<ul class="listC">
+						<li>
+							<h3 class="bold mb5">RAIDレベルの指定</h3>
+							<p class="mb20">複数のRAIDレベルからご利用の環境に最適なものをお選びいただけますが、モデルによってサポートされるRAIDレベルが異なります。詳細はそれぞれ以下のユーザーガイドをご覧ください。</p>
+							<div class="mb20">
+								<p><a href="https://support.hpe.com/hpesc/public/docDisplay?docId=a00110297ja_jp&page=GUID-75AACF98-B366-48B3-98C2-DE948989B7B7.html" target="_blank"><span class="cta-link f13"><em class="icon-arrow-circle-right"></em>HPE MegaRAID MR Gen10 Plusコントローラーユーザーガイド</span></a></p>
+								<p><a href="https://support.hpe.com/hpesc/public/docDisplay?docId=a00019059ja_jp&page=GUID-46B66F85-D701-48AD-9CBA-2F8EA57E6614.html" target="_blank"><span class="cta-link f13"><em class="icon-arrow-circle-right"></em>HPE SmartアレイSR Gen10ユーザーガイド</span></a></p>
+							</div>
+						</li>
+						<li>
+							<h3 class="bold mb5">ドライブアレイと論理ドライブ</h3>
+							<p class="mb20">複数のディスクを組み合わせてドライブアレイを作成します。さらに論理ドライブと呼ばれる仮想ユニットをアレイ内に作成します。この論理ドライブが、OSからは物理ディスクとして認識されます。
+								<br>通常は1つのアレイに対して1つの論理ドライブを作成しますが、1つのアレイ内に異なるRAIDレベルの複数の論理ドライブを設定することも可能です。</p>
+						</li>
+						<li>
+							<h3 class="bold mb5">オンラインスペア（ホットスペア）</h3>
+							<p class="mb20">オンラインスペアをアレイに割り当てることにより、故障したハードディスクの交換を延期できます。<br>オンラインスペアを持つアレイのハードディスクに障害が発生した場合、そのアレイ内の論理ドライブはオンラインスペアを使用して自動的に再構築されます。</p>
+						</li>
+						<li>
+							<h3 class="bold mb5">キャッシュメモリ</h3>
+							<p class="mb20">一部のコントローラーではキャッシュメモリを搭載し、ハードディスクに比べて入出力処理が高速なメモリにデータを格納することで、データの読み書きが集中する時の効率を大幅に向上させます。<br>また同じく一部のコントローラーで対応する「Smartストレージバッテリー」によって、停電などの障害からキャッシュ内のデータを保護します。（FBWC）</p>
+						</li>
+					</ul>
+				</div>
+				<div>
+					<h2 class="bold f18 mb5">関連情報</h2>
+					<p class="mb20">上記の他にもさまざまな機能が利用できます。詳細は以下をご覧ください。</p>
 					<ul class="mb20">
-						<li><a href="https://www.hpe.com/jp/ja/doc/server-system.html" target="_blank"><span class="cta-link f13"><em class="icon-arrow-circle-right"></em>各Smartアレイコントローラーの詳細について、HPE ProLiantサーバーのシステム構成図をご覧ください</span></a></li>
+						<li><a href="https://www.hpe.com/jp/ja/doc/server-system.html" target="_blank"><span class="cta-link f13"><em class="icon-arrow-circle-right"></em>HPE ProLiantサーバー システム構成図</span></a></li>
+						<li><a href="https://community.hpe.com/t5/HPE-Blog-Japan/%E9%80%A3%E8%BC%89-%E5%B0%8E%E5%85%A5%E5%89%8D%E3%81%AE%E3%82%A2%E3%83%89%E3%83%90%E3%82%A4%E3%82%B9-%E3%82%A2%E3%83%AC%E3%82%A4%E3%82%B3%E3%83%B3%E3%83%88%E3%83%AD%E3%83%BC%E3%83%A9%E3%83%BC/ba-p/7114956#.YsJdFBXP1hG" target="_blank"><span class="cta-link f13"><em class="icon-arrow-circle-right"></em>【連載】導入前のアドバイス – アレイコントローラー</span></a></li>
+						<li><a href="https://support.hpe.com/hpesc/public/docDisplay?docLocale=ja_JP&docId=a00018944ja_jp" target="_blank"><span class="cta-link f13"><em class="icon-arrow-circle-right"></em>HPE SmartアレイSR Gen10構成ガイド</span></a></li>
 					</ul>
 					<p>
-						なお、一部のHPE ProLiantサーバーで選択可能なオンボードのコントローラーについては、ここで説明しているSmartアレイコントローラーとは別の製品・機能となりますのでご注意ください。
+						なお、一部のHPE ProLiantサーバーで選択可能なオンボードのコントローラーについては、ここで説明しているコントローラーとは別の製品・機能となりますのでご注意ください。
 					</p>
 				</div>
 			</div>
