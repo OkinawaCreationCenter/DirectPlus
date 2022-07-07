@@ -35,6 +35,33 @@
 						</p>
 						<div class="whatsNew">
 							<ul>
+								<li class="newsIcon_old">
+									<span class="newsDate">2022.07.07</span>
+									<div class="newsTxt">
+										<p>
+											<a href="/directplus_ent/server/dl360gen10/">DL360 Gen10</a>、<a href="/directplus_ent/server/dl380gen10/">DL380 Gen10</a>、<a href="<!--#include virtual="/directplus_ent/include/intershop_domain.inc" -->/is-bin/INTERSHOP.enfinity/WFS/Directplus-Customer-Site/ja_JP/-/JPY/BrowseCatalogForBusiness-Start?CategoryName=DPBOption_e">オプション</a>で以下のオプション製品を販売終了
+											<br>・300GB 15krpm SC 3.5型 12G SAS DS HDD（代替推奨製品：2TB 7.2krpm SC 3.5型 12G SAS DS HDD、15krpm/10krpm SFF HDD 、またはSATA RI LFF SSDをご検討ください。）
+											<br>・600GB 15krpm SC 3.5型 12G SAS DS HDD（代替推奨製品：2TB 7.2krpm SC 3.5型 12G SAS DS HDD、15krpm/10krpm SFF HDD 、またはSATA RI LFF SSDをご検討ください。）
+											<br>
+											<br><a href="<!--#include virtual="/directplus_ent/include/intershop_domain.inc" -->/is-bin/INTERSHOP.enfinity/WFS/Directplus-Customer-Site/ja_JP/-/JPY/BrowseCatalogForBusiness-Start?CategoryName=DPBOption_e">オプション</a> ＞ <a href="<!--#include virtual="/directplus_ent/include/intershop_domain.inc" -->/is-bin/INTERSHOP.enfinity/WFS/Directplus-Customer-Site/ja_JP/-/JPY/BrowseCatalogForBusiness-Start?CatalogCategoryID=mEEQz0NzTtUAAAFkBGUQLnzv&CategoryName_value=%E7%B4%94%E6%AD%A3%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3">DL325</a>、<a href="<!--#include virtual="/directplus_ent/include/intershop_domain.inc" -->/is-bin/INTERSHOP.enfinity/WFS/Directplus-Customer-Site/ja_JP/-/JPY/BrowseCatalogForBusiness-Start?CatalogCategoryID=2iYQpABQadsAAAED1SjVqXit&CategoryName_value=%E7%B4%94%E6%AD%A3%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3">DL385</a> ＞
+											<br>・メモリ＞ 16GB 1Rx4 PC4-2933Y-R Smartメモリキット（代替製品はございません）
+											<br>
+											<br><a href="<!--#include virtual="/directplus_ent/include/intershop_domain.inc" -->/is-bin/INTERSHOP.enfinity/WFS/Directplus-Customer-Site/ja_JP/-/JPY/BrowseCatalogForBusiness-Start?CategoryName=DPBOption_e">オプション</a> ＞ <a href="/directplus_ent/server/dl325gen10plusv2/">DL325 Gen10 Plus v2</a>、<a href="/directplus_ent/server/dl345gen10plus/">DL345 Gen10 Plus</a>、<a href="/directplus_ent/server/dl360gen10plus/">DL360 Gen10 Plus</a>、<a href="/directplus_ent/server/dl380gen10plus/">DL380 Gen10 Plus</a>、<a href="/directplus_ent/server/dl385gen10plusv2/">DL385 Gen10 Plus v2</a> ＞
+											<br>・ハードディスク（ベーシックキャリア）/3.5型SAS ＞ 600GB SAS 12G 15Krpm LFF LPC HDD（代替推奨製品：15krpm/10krpm SFF HDD 、またはSATA RI LFF SSDをご検討ください。）
+										</p>
+									</div>
+								</li>
+								<li class="newsIcon_newpro">
+									<span class="newsDate">2022.07.07</span>
+									<div class="newsTxt">
+										<p><a href="/directplus_ent/server/dl325gen10plusv2/">DL325 Gen10 Plus v2</a>（4LFF モデル）で以下のオプション製品を販売開始</p>
+										<p>・MegaRAID MR216i-a コントローラー</p>
+										<p>・MegaRAID MR416i-a コントローラー</p>
+										<p>・DL325 Gen10 Plus v2 SAS/SATA to Tri-Mode ケーブルキット</p>
+										<p class="f12 ml15 indent-1">※8SFFモデルDL325 Gen10 Plus v2 8SFF SAS/SATA FIO Kitとのセット販売となります。カスタマイズ画面では「SFF SAS/SATA バックプレーンキット w/ケーブル」と表示されます。</p>
+										<p class="f12 ml15 indent-1">※4LFFモデルDL325 Gen10 Plus v2 4LFF SAS/SATA FIO Kitとのセット販売となります。カスタマイズ画面では「4LFF SAS/SATA バックプレーンキット w/ケーブル」と表示されます。</p>
+									</div>
+								</li>
 								<li class="newsIcon_newpro">
 									<span class="newsDate">2022.07.5</span>
 									<div class="newsTxt">
