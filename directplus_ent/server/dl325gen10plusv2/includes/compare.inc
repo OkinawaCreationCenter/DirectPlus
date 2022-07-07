@@ -32,7 +32,7 @@
 			<tr class="gryCell">
 				<th>最小構成価格(税抜)</th>
 				<td class="alignCtr">
-					通常モデル　891,000円～
+					通常モデル　865,000円～
 					<!--<a href="#ContactUs" class="tertiary-link">お問い合わせください</a>-->
 				</td>
 				<td class="alignCtr">

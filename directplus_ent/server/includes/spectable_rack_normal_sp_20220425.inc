@@ -97,11 +97,11 @@
 									<div class="specTableItemPrice">
 										<!--<span class="bold f14"><a href="#ContactUs" class="tertiary-link">お問い合わせください</a></span>-->
 										最小構成価格(税抜)
-										<a href="/directplus_ent/server/dl325gen10plusv2/" class="btn btn-secondary" role="button"><span>891,000円～</span></a>
+										<a href="/directplus_ent/server/dl325gen10plusv2/" class="btn btn-secondary" role="button"><span>865,000円～</span></a>
 									</div>
 									<div class="mb20">
 										<a href="/directplus_ent/subscription/" target="_blank" class="tertiary-link">サブスクご利用で</a><br>
-										月額（5年）<span class="disp_ib bold f14">15,820円<sup>※</sup>〜</span><br>
+										月額（5年）<span class="disp_ib bold f14">15,600円<sup>※</sup>〜</span><br>
 									</div>
 									<div class="specTableItemDetail">
 										2プロセッサーに匹敵する性能で高コストパフォーマンスを発揮する1ソケットサーバー

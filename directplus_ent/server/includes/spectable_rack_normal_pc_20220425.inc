@@ -158,11 +158,11 @@
 					<!--<span class="bold f14"><a href="#ContactUs" class="tertiary-link">お問い合わせください</a></span>-->
 					<span class="price">
 						<a href="/directplus_ent/server/dl325gen10plusv2/?hash=Normal" class="cta-link f12"><em class="icon-arrow-circle-right"></em>通常モデル</a><br>
-						<span class="bold f17">891,000円～</span>
+						<span class="bold f17">865,000円～</span>
 					</span>
 					<div class="mb20">
 						<a href="/directplus_ent/subscription/" target="_blank" class="tertiary-link">サブスクご利用で</a><br>
-						月額（5年）<span class="disp_ib bold f14 lhMin">15,820円<sup>※</sup>〜</span><br>
+						月額（5年）<span class="disp_ib bold f14 lhMin">15,600円<sup>※</sup>〜</span><br>
 					</div>
 				</div>
 			</td>

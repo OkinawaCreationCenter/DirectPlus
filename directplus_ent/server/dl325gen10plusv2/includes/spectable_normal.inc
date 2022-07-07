@@ -61,17 +61,17 @@
 				<th rowspan="2">最小構成価格<br>（税抜）</th>
 				<td class="pt10 pb10" style="border-bottom: none;">
 					<div>
-						<span class="f14 bold"><a href="#ContactUs" class="tertiary-link">お問い合わせください</a></span>
-						<!--<span class="bold f14">通常モデル</span>
-						<span class="f16">707,000円～</span><br>
-						<a href="/is-bin/INTERSHOP.enfinity/WFS/Directplus-Customer-Site/ja_JP/-/JPY/DisplayProductInformationForBusiness-Frame?CategoryName=SERI:4398&ProductSKU=BASE:16005" role="button" class="btn btn-secondary mt0 mb5"><span class="bold f14">カスタマイズして見積・購入</span></a>-->
+						<!--<span class="f14 bold"><a href="#ContactUs" class="tertiary-link">お問い合わせください</a></span>-->
+						<span class="bold f14">通常モデル</span>
+						<span class="f16">865,000円～</span><br>
+						<a href="<!--#include virtual="/directplus_ent/include/intershop_domain.inc" -->/is-bin/INTERSHOP.enfinity/WFS/Directplus-Customer-Site/ja_JP/-/JPY/DisplayProductInformationForBusiness-Frame?CategoryName=SERI:4398&ProductSKU=BASE:16005" role="button" class="btn btn-secondary mt0 mb5"><span class="bold f14">カスタマイズして見積・購入</span></a>
 					</div>
 				</td>
 				<td class="pt10 pb10" style="border-bottom: none;">
 					<div>
 						<!--<span class="f14 bold"><a href="#ContactUs" class="tertiary-link">お問い合わせください</a></span>-->
 						<span class="bold f14">通常モデル</span>
-						<span class="f16">891,000円～</span><br>
+						<span class="f16">865,000円～</span><br>
 						<a href="<!--#include virtual="/directplus_ent/include/intershop_domain.inc" -->/is-bin/INTERSHOP.enfinity/WFS/Directplus-Customer-Site/ja_JP/-/JPY/DisplayProductInformationForBusiness-Frame?CategoryName=SERI:4398&ProductSKU=BASE:16004" role="button" class="btn btn-secondary mt0 mb5"><span class="bold f14">カスタマイズして見積・購入</span></a>
 					</div>
 				</td>
