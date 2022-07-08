@@ -85,6 +85,16 @@
 										<p class="f12 ml15 indent-1">※DL360 Gen10 Plus 2SFF SAS/SATA バックプレーンキットとのセット販売となります。カスタマイズ画面では「DL360 Gen10 Plus 2SFF SAS/SATA バックプレーンキット w/ケーブル」と表示されます。</p>
 									</div>
 								</li>
+								<li class="newsIcon_old">
+									<span class="newsDate">2022.06.28</span>
+									<div class="newsTxt">
+										<a href="/directplus_ent/server/dl380gen10plus/">DL380 Gen10 Plus</a>で以下のオプション製品を販売終了
+										<br>・SN1600Q 32Gb 1ポート FC ホストバスアダプター
+										<br>・SN1600Q 32Gb 2ポート FC ホストバスアダプター
+										<br>・SN1600E 32Gb 1ポート FC ホストバスアダプター
+										<br>・SN1600E 32Gb 2ポート FC ホストバスアダプター
+									</div>
+								</li>
 								<li class="newsIcon_newpro">
 									<span class="newsDate">2022.06.24</span>
 									<div class="newsTxt">
