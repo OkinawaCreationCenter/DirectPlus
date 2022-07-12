@@ -30,17 +30,17 @@
 			<div class="clm2">
 				<div class="column25-75Flex fixAll">
 					<div class="clm1 flexGutter20">
-						<img src="/directplus_ent/callcenter/images/member2.jpg" width="300" height="300" alt="" class="gryBdr1px">
+						<img src="/directplus_ent/callcenter/images/member4.jpg" width="300" height="300" alt="" class="gryBdr1px">
 					</div>
 					<div class="clm2 gutter5">
 						<div class="f18 bold">
-							森元 <span class="f14">Morimoto　<span class="normal">コンシェルジュ</span></span>
+							植山 <span class="f14">Ueyama　<span class="normal">スーパーバイザー</span></span>
 						</div>
 						<p>
-							お客様から喜んでいただいたり、信頼を得られるように日々努めています。
+							「ありがとう」と仰っていただけるととても嬉しく、いつも励みにしています。
 						</p>
 						<p>
-							趣味：野球の観戦
+							趣味：お散歩
 						</p>
 					</div>
 				</div>
@@ -67,22 +67,6 @@
 				</div>
 			</div>
 			<div class="clm2">
-				<div class="column25-75Flex fixAll">
-					<div class="clm1 flexGutter20">
-						<img src="/directplus_ent/callcenter/images/member4.jpg" width="300" height="300" alt="" class="gryBdr1px">
-					</div>
-					<div class="clm2 gutter5">
-						<div class="f18 bold">
-							植山 <span class="f14">Ueyama　<span class="normal">スーパーバイザー</span></span>
-						</div>
-						<p>
-							「ありがとう」と仰っていただけるととても嬉しく、いつも励みにしています。
-						</p>
-						<p>
-							趣味：お散歩
-						</p>
-					</div>
-				</div>
 			</div>
 		</div>
 	</div>
