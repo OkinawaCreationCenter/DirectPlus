@@ -26,7 +26,6 @@
 								<li><a href="/directplus_ent/server/purpose/database.html">データベースサーバー</a></li>
 								<li><a href="/directplus_ent/server/purpose/utm.html">統合脅威管理サーバー</a></li>
 								<li><a href="/directplus_ent/server/purpose/sds.html">ソフトウェア・デファインド・ストレージ</a></li>
-								<li><a href="/directplus_ent/recipe/">スペシャリストのおすすめ</a></li>
 							</ul>
 						</li>
 						<li class="level1"><a href="/directplus_ent/server/gen10.html">Gen10サーバーで選ぶ</a></li>
