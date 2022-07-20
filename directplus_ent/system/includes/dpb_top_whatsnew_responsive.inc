@@ -35,6 +35,21 @@
 						</p>
 						<div class="whatsNew">
 							<ul>
+								<!--<li class="newsIcon_info">
+									<span class="newsDate">2022.07.22</span>
+									<span class="newsTxt">
+										【重要】<a href="/directplus_ent/informations/delivery_schedule/fusion_stop.html">システムメンテナンスに伴う納品スケジュールのお知らせ（8月8日(月)～8月18日(木)の正式受注分に関して）</a>
+									</span>
+								</li>-->
+								<li class="newsIcon_feat">
+									<span class="newsDate">2022.07.20</span>
+									<span class="newsTxt">
+										<a href="/directplus_ent/server/features.html">「最新テクノロジーをご紹介、HPE ProLiant サーバー 解説記事」ページに以下の記事を追加</a>
+										<br>・日本のホワイトハッカー第一人者に聞く、ハードウェアのセキュリティ対策が重要な理由
+										<br>・HPEの考えるWX - 新しい働き方を実現するビジョンと意識改革
+										<br>・「米国人だけで行くとナメられるから来てくれ」～冷却ファン開発秘話 - 前編
+									</span>
+								</li>
 								<li class="newsIcon_old">
 									<span class="newsDate">2022.07.14</span>
 									<div class="newsTxt">
