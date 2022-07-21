@@ -72,8 +72,8 @@
 				<td class="pt10 pb10 bgG">
 					<div>
 						<span class="bold f16">通常モデル（NC<sup>※</sup>）</span>
-						<span class="f16">607,000円～</span>
-						<a href="<!--#include virtual="/directplus_ent/include/intershop_domain.inc" -->/is-bin/INTERSHOP.enfinity/WFS/Directplus-Customer-Site/ja_JP/-/JPY/DisplayProductInformationForBusiness-Frame?CategoryName=SERI:4264&ProductSKU=BASE:15785" role="button" class="btn btn-secondary mt0 mb5"><span class="bold f14">カスタマイズして見積・購入</span></a>
+						<span class="f16">832,000円～</span>
+						<a href="<!--#include virtual="/directplus_ent/include/intershop_domain.inc" -->/is-bin/INTERSHOP.enfinity/WFS/Directplus-Customer-Site/ja_JP/-/JPY/DisplayProductInformationForBusiness-Frame?CategoryName=SERI:4264&ProductSKU=BASE:16120" role="button" class="btn btn-secondary mt0 mb5"><span class="bold f14">カスタマイズして見積・購入</span></a>
 					</div>
 				</td>
 				<td class="pt10 pb10 bgG">

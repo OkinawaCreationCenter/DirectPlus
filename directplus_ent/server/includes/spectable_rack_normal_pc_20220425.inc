@@ -535,10 +535,10 @@
 				<div class="alignCtr">
 					<span class="price">
 						<a href="/directplus_ent/server/dl380gen10/?hash=Normal" class="cta-link f12"><em class="icon-arrow-circle-right"></em>通常モデル</a><br>
-						<span class="bold f18">607,000円～</span></span>
+						<span class="bold f18">732,000円～</span></span>
 					<div class="mb20">
 						<a href="/directplus_ent/subscription/" target="_blank" class="tertiary-link">サブスクご利用で</a><br>
-						月額（5年）<span class="disp_ib bold f14 lhMin">10,710円<sup>※</sup>〜</span><br>
+						月額（5年）<span class="disp_ib bold f14 lhMin">13,200円<sup>※</sup>〜</span><br>
 					</div>
 				</div>
 			</td>
@@ -649,7 +649,7 @@
 			<th class="secsIcon iconDiscController">ディスク<br>コントローラー</th>
 			<!--DL180 Gen10	 --><td>Smart アレイ S100i、Smart アレイ E208i-aまたはSmartアレイ P816i-a 標準搭載<br><span class="f11">※モデルによりアップグレード可</span></td>
 			<!--DL345 Gen10 Plus--><td>MegaRAID MR216i-a標準搭載<br><span class="f11">※モデルによりアップグレード可</span></td>
-			<!--DL380 Gen10	 --><td>Smartアレイ E208i-aまたはSmartアレイ P816i-a標準搭載<br><span class="f11">※モデルによりアップグレード可</span></td>
+			<!--DL380 Gen10	 --><td>Smartアレイ P816i-aまたはMegaRAID MR216i-a標準搭載<br><span class="f11">※モデルによりアップグレード可</span></td>
 			<!--DL380 Gen10 Plus--><td>MegaRAID MR216i-a標準搭載<br><span class="f11">※モデルによりアップグレード可</span></td>
 			<!--DL385 Gen10 Plus--><td>Smartアレイ P408i-a、SmartアレイP816i-a、またはSmartアレイE208i-a標準搭載<br><span class="f11">※モデルによりアップグレード可</span></td>
 			<!--DL385 Gen10 Plus v2--><td>MegaRAID MR216i-a標準搭載<br><span class="f11">※モデルによりアップグレード可</span></td>
