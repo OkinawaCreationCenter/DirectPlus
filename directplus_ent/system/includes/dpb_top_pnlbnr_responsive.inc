@@ -77,7 +77,7 @@
 									最短5営業日で納品可能な<br>構成例はこちら
 								</div>
 								<div class="cardLink">
-									MegaRAIDコントローラー構成例も追加しました
+									詳細はこちら
 									<span class="cardLinkArrow">→</span>
 								</div>
 							</div>
