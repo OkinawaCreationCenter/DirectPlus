@@ -41,6 +41,13 @@
 										【重要】<a href="/directplus_ent/informations/delivery_schedule/fusion_stop.html">システムメンテナンスに伴う納品スケジュールのお知らせ（8月8日(月)～8月18日(木)の正式受注分に関して）</a>
 									</span>
 								</li>-->
+								<li class="newsIcon_newpro">
+									<span class="newsDate">2022.07.21</span>
+									<div class="newsTxt">
+										<p><a href="/directplus_ent/server/dl380gen10/">DL380 Gen10</a>（8SFF モデル）で以下のモデルを販売開始</p>
+										<p>・DL380 Gen10 8SFF MegaRAID NCモデル</p>
+									</div>
+								</li>
 								<li class="newsIcon_feat">
 									<span class="newsDate">2022.07.20</span>
 									<span class="newsTxt">
