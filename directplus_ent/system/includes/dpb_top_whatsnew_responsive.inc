@@ -35,12 +35,12 @@
 						</p>
 						<div class="whatsNew">
 							<ul>
-								<!--<li class="newsIcon_info">
+								<li class="newsIcon_info">
 									<span class="newsDate">2022.07.22</span>
 									<span class="newsTxt">
 										【重要】<a href="/directplus_ent/informations/delivery_schedule/fusion_stop.html">システムメンテナンスに伴う納品スケジュールのお知らせ（8月8日(月)～8月18日(木)の正式受注分に関して）</a>
 									</span>
-								</li>-->
+								</li>
 								<li class="newsIcon_newpro">
 									<span class="newsDate">2022.07.21</span>
 									<div class="newsTxt">
