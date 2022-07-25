@@ -278,7 +278,7 @@
 			<!--DL160 Gen10	 --><td>Smart アレイ S100i標準搭載<br><span class="f11">※モデルによりアップグレード可</span></td>
 			<!--DL325 Gen10 Plus--><td>SmartアレイP408i-a、SmartアレイP816i-a、またはSmartアレイE208i-a標準搭載<br><span class="f11">※モデルによりアップグレード可</span></td>
 			<!--DL325 Gen10 Plus v2--><td><span class="wrdBrkAll">MegaRAID MR216i-a標準搭載</span><br><span class="f11">※モデルによりアップグレード可</span></td>
-			<!--DL360 Gen10	 --><td>Smartアレイ S100iまたはSmartアレイ E208i-a標準搭載<br><span class="f11">※モデルによりアップグレード可</span></td>
+			<!--DL360 Gen10	 --><td>Smartアレイ E208i-aまたはMegaRAID MR216i-a標準搭載<br><span class="f11">※モデルによりアップグレード可</span></td>
 			<!--DL360 Gen10 Plus--><td>SR100i SW RAIDモード設定、または<span class="wrdBrkAll">MegaRAID MR216i-a標準搭載</span><br><span class="f11">※モデルによりアップグレード可</span></td>
 			<!--DL365 Gen10 Plus--><td><span class="wrdBrkAll">MegaRAID MR216i-a標準搭載</span><br><span class="f11">※モデルによりアップグレード可</span></td>
 		</tr>

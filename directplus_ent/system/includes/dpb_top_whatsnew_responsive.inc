@@ -35,6 +35,13 @@
 						</p>
 						<div class="whatsNew">
 							<ul>
+								<li class="newsIcon_newpro">
+									<span class="newsDate">2022.07.25</span>
+									<div class="newsTxt">
+										<p><a href="/directplus_ent/server/dl360gen10/">DL360 Gen10</a>（8SFF モデル）で以下のモデルを販売開始</p>
+										<p>・DL360 Gen10 8SFF MegaRAID NCモデル</p>
+									</div>
+								</li>
 								<li class="newsIcon_info">
 									<span class="newsDate">2022.07.22</span>
 									<span class="newsTxt">
